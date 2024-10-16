@@ -1,0 +1,2792 @@
+"Tables with Isospin combinations"
+check222 = {{3, 3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 
+    1, 1, 1, 1, 1, 0}, {3, 2, 1, 0, -1, -2, -3, 2, 2, 1, 1, 0, 0, -1, -1, -2, 
+     -2, 1, 1, 1, 0, 0, 0, -1, -1, -1, 0}, {2, 2, 2, 2, 2, 2, 2, 2, 1, 2, 1, 
+    2, 1, 2, 1, 2, 1, 2, 1, 0, 2, 1, 0, 2, 1, 0, 1}, 
+    {True, True, True, True, True, True, True, True, True, True, True, True, 
+     True, True, True, True, True, True, True, True, True, True, True, True, 
+     True, True, True}, {True, True, True, True, True, True, True, True, 
+     True, True, True, True, True, True, True, True, True, True, True, True, 
+     True, True, True, True, True, True, True}, {True, True, True, True, 
+     True, True, True, True, True, True, True, True, True, True, True, True, 
+     True, True, True, True, True, True, True, True, True, True, True}}
+tab222 = {{3, 3, 2, Subscript[OverBar[A], 1]*Subscript[OverBar[B], 1]*
+      Subscript[OverBar[C], 1]}, {3, 2, 2, 
+     (Subscript[OverBar[A], 1]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], 0])/Sqrt[3] + 
+      (Subscript[OverBar[A], 1]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], 1])/Sqrt[3] + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], 1])/Sqrt[3]}, 
+    {3, 1, 2, (Subscript[OverBar[A], 1]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], -1])/Sqrt[15] + 
+      (2*Subscript[OverBar[A], 1]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], 0])/Sqrt[15] + 
+      (2*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], 0])/Sqrt[15] + 
+      (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 1])/Sqrt[15] + 
+      (2*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], 1])/Sqrt[15] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], 1])/Sqrt[15]}, 
+    {3, 0, 2, (Subscript[OverBar[A], 1]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], -1])/Sqrt[10] + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], -1])/Sqrt[10] + 
+      (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 0])/Sqrt[10] + 
+      Sqrt[2/5]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 0]*
+       Subscript[OverBar[C], 0] + (Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 1]*Subscript[OverBar[C], 0])/Sqrt[10] + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 1])/Sqrt[10] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], 1])/Sqrt[10]}, 
+    {3, -1, 2, (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], -1])/Sqrt[15] + 
+      (2*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], -1])/Sqrt[15] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], -1])/Sqrt[15] + 
+      (2*Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 0])/Sqrt[15] + 
+      (2*Subscript[OverBar[A], -1]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], 0])/Sqrt[15] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 1])/Sqrt[15]}, 
+    {3, -2, 2, (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], -1])/Sqrt[3] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], -1])/Sqrt[3] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 0])/Sqrt[3]}, 
+    {3, -3, 2, Subscript[OverBar[A], -1]*Subscript[OverBar[B], -1]*
+      Subscript[OverBar[C], -1]}, {2, 2, 2, 
+     -(Sqrt[2/3]*Subscript[OverBar[A], 1]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], 0]) + (Subscript[OverBar[A], 1]*
+        Subscript[OverBar[B], 0]*Subscript[OverBar[C], 1])/Sqrt[6] + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], 1])/Sqrt[6]}, 
+    {2, 2, 1, -((Subscript[OverBar[A], 1]*Subscript[OverBar[B], 0]*
+         Subscript[OverBar[C], 1])/Sqrt[2]) + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], 1])/Sqrt[2]}, 
+    {2, 1, 2, -((Subscript[OverBar[A], 1]*Subscript[OverBar[B], 1]*
+         Subscript[OverBar[C], -1])/Sqrt[3]) - 
+      (Subscript[OverBar[A], 1]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], 0])/(2*Sqrt[3]) - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], 0])/(2*Sqrt[3]) + 
+      (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 1])/(2*Sqrt[3]) + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], 1])/Sqrt[3] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], 1])/(2*Sqrt[3])}, 
+    {2, 1, 1, -1/2*(Subscript[OverBar[A], 1]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], 0]) + (Subscript[OverBar[A], 0]*
+        Subscript[OverBar[B], 1]*Subscript[OverBar[C], 0])/2 - 
+      (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 1])/2 + (Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 1]*Subscript[OverBar[C], 1])/2}, 
+    {2, 0, 2, -1/2*(Subscript[OverBar[A], 1]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], -1]) - (Subscript[OverBar[A], 0]*
+        Subscript[OverBar[B], 1]*Subscript[OverBar[C], -1])/2 + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 1])/2 + (Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 0]*Subscript[OverBar[C], 1])/2}, 
+    {2, 0, 1, -1/2*(Subscript[OverBar[A], 1]*Subscript[OverBar[B], 0]*
+         Subscript[OverBar[C], -1])/Sqrt[3] + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], -1])/(2*Sqrt[3]) - 
+      (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 0])/Sqrt[3] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], 0])/Sqrt[3] - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 1])/(2*Sqrt[3]) + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], 1])/(2*Sqrt[3])}, 
+    {2, -1, 2, -1/2*(Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+         Subscript[OverBar[C], -1])/Sqrt[3] - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], -1])/Sqrt[3] - 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], -1])/(2*Sqrt[3]) + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 0])/(2*Sqrt[3]) + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], 0])/(2*Sqrt[3]) + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 1])/Sqrt[3]}, 
+    {2, -1, 1, -1/2*(Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], -1]) + (Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 1]*Subscript[OverBar[C], -1])/2 - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 0])/2 + (Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 0]*Subscript[OverBar[C], 0])/2}, 
+    {2, -2, 2, -((Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1]*
+         Subscript[OverBar[C], -1])/Sqrt[6]) - 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], -1])/Sqrt[6] + 
+      Sqrt[2/3]*Subscript[OverBar[A], -1]*Subscript[OverBar[B], -1]*
+       Subscript[OverBar[C], 0]}, {2, -2, 1, 
+     -((Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1]*
+         Subscript[OverBar[C], -1])/Sqrt[2]) + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], -1])/Sqrt[2]}, 
+    {1, 1, 2, Sqrt[3/5]*Subscript[OverBar[A], 1]*Subscript[OverBar[B], 1]*
+       Subscript[OverBar[C], -1] - (Sqrt[3/5]*Subscript[OverBar[A], 1]*
+        Subscript[OverBar[B], 0]*Subscript[OverBar[C], 0])/2 - 
+      (Sqrt[3/5]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], 0])/2 + (Subscript[OverBar[A], 1]*
+        Subscript[OverBar[B], -1]*Subscript[OverBar[C], 1])/(2*Sqrt[15]) + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], 1])/Sqrt[15] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], 1])/(2*Sqrt[15])}, 
+    {1, 1, 1, (Subscript[OverBar[A], 1]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], 0])/2 - (Subscript[OverBar[A], 0]*
+        Subscript[OverBar[B], 1]*Subscript[OverBar[C], 0])/2 - 
+      (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 1])/2 + (Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 1]*Subscript[OverBar[C], 1])/2}, 
+    {1, 1, 0, (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 1])/Sqrt[3] - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], 1])/Sqrt[3] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], 1])/Sqrt[3]}, 
+    {1, 0, 2, (Sqrt[3/5]*Subscript[OverBar[A], 1]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], -1])/2 + (Sqrt[3/5]*Subscript[OverBar[A], 0]*
+        Subscript[OverBar[B], 1]*Subscript[OverBar[C], -1])/2 - 
+      (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 0])/Sqrt[15] - 
+      (2*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], 0])/Sqrt[15] - 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], 0])/Sqrt[15] + 
+      (Sqrt[3/5]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 1])/2 + (Sqrt[3/5]*Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 0]*Subscript[OverBar[C], 1])/2}, 
+    {1, 0, 1, (Subscript[OverBar[A], 1]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], -1])/2 - (Subscript[OverBar[A], 0]*
+        Subscript[OverBar[B], 1]*Subscript[OverBar[C], -1])/2 - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 1])/2 + (Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 0]*Subscript[OverBar[C], 1])/2}, 
+    {1, 0, 0, (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 0])/Sqrt[3] - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], 0])/Sqrt[3] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], 0])/Sqrt[3]}, 
+    {1, -1, 2, (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], -1])/(2*Sqrt[15]) + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], -1])/Sqrt[15] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], -1])/(2*Sqrt[15]) - 
+      (Sqrt[3/5]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 0])/2 - (Sqrt[3/5]*Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 0]*Subscript[OverBar[C], 0])/2 + 
+      Sqrt[3/5]*Subscript[OverBar[A], -1]*Subscript[OverBar[B], -1]*
+       Subscript[OverBar[C], 1]}, {1, -1, 1, 
+     (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], -1])/2 - (Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 1]*Subscript[OverBar[C], -1])/2 - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 0])/2 + (Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 0]*Subscript[OverBar[C], 0])/2}, 
+    {1, -1, 0, (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], -1])/Sqrt[3] - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], -1])/Sqrt[3] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], -1])/Sqrt[3]}, 
+    {0, 0, 1, -((Subscript[OverBar[A], 1]*Subscript[OverBar[B], 0]*
+         Subscript[OverBar[C], -1])/Sqrt[6]) + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], -1])/Sqrt[6] + 
+      (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 0])/Sqrt[6] - 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], 0])/Sqrt[6] - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 1])/Sqrt[6] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], 1])/Sqrt[6]}}
+check221 = {{5/2, 5/2, 5/2, 5/2, 5/2, 5/2, 3/2, 3/2, 3/2, 3/2, 3/2, 3/2, 3/2, 
+     3/2, 1/2, 1/2, 1/2, 1/2}, {5/2, 3/2, 1/2, -1/2, -3/2, -5/2, 3/2, 3/2, 
+     1/2, 1/2, -1/2, -1/2, -3/2, -3/2, 1/2, 1/2, -1/2, -1/2}, {2, 2, 2, 2, 2, 
+    2, 2, 1, 2, 1, 2, 1, 2, 1, 1, 0, 1, 0}, {True, True, True, True, True, 
+     True, True, True, True, True, True, True, True, True, True, True, True, 
+     True}, {True, True, True, True, True, True, True, True, True, True, 
+     True, True, True, True, True, True, True, True}, 
+    {True, True, True, True, True, True, True, True, True, True, True, True, 
+     True, True, True, True, True, True}}
+tab221 = {{5/2, 5/2, 2, Subscript[OverBar[A], 1]*Subscript[OverBar[B], 1]*
+      Subscript[OverBar[C], 1/2]}, {5/2, 3/2, 2, 
+     (Subscript[OverBar[A], 1]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], -1/2])/Sqrt[5] + 
+      Sqrt[2/5]*Subscript[OverBar[A], 1]*Subscript[OverBar[B], 0]*
+       Subscript[OverBar[C], 1/2] + Sqrt[2/5]*Subscript[OverBar[A], 0]*
+       Subscript[OverBar[B], 1]*Subscript[OverBar[C], 1/2]}, 
+    {5/2, 1/2, 2, (Subscript[OverBar[A], 1]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], -1/2])/Sqrt[5] + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], -1/2])/Sqrt[5] + 
+      (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 1/2])/Sqrt[10] + 
+      Sqrt[2/5]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 0]*
+       Subscript[OverBar[C], 1/2] + (Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 1]*Subscript[OverBar[C], 1/2])/Sqrt[10]}, 
+    {5/2, -1/2, 2, (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], -1/2])/Sqrt[10] + 
+      Sqrt[2/5]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 0]*
+       Subscript[OverBar[C], -1/2] + (Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 1]*Subscript[OverBar[C], -1/2])/Sqrt[10] + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 1/2])/Sqrt[5] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], 1/2])/Sqrt[5]}, 
+    {5/2, -3/2, 2, Sqrt[2/5]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 
+        -1]*Subscript[OverBar[C], -1/2] + Sqrt[2/5]*Subscript[OverBar[A], -1]*
+       Subscript[OverBar[B], 0]*Subscript[OverBar[C], -1/2] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 1/2])/Sqrt[5]}, 
+    {5/2, -5/2, 2, Subscript[OverBar[A], -1]*Subscript[OverBar[B], -1]*
+      Subscript[OverBar[C], -1/2]}, {3/2, 3/2, 2, 
+     (-2*Subscript[OverBar[A], 1]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], -1/2])/Sqrt[5] + 
+      (Subscript[OverBar[A], 1]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], 1/2])/Sqrt[10] + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], 1/2])/Sqrt[10]}, 
+    {3/2, 3/2, 1, -((Subscript[OverBar[A], 1]*Subscript[OverBar[B], 0]*
+         Subscript[OverBar[C], 1/2])/Sqrt[2]) + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], 1/2])/Sqrt[2]}, 
+    {3/2, 1/2, 2, -(Sqrt[3/10]*Subscript[OverBar[A], 1]*
+        Subscript[OverBar[B], 0]*Subscript[OverBar[C], -1/2]) - 
+      Sqrt[3/10]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1]*
+       Subscript[OverBar[C], -1/2] + (Subscript[OverBar[A], 1]*
+        Subscript[OverBar[B], -1]*Subscript[OverBar[C], 1/2])/Sqrt[15] + 
+      (2*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], 1/2])/Sqrt[15] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], 1/2])/Sqrt[15]}, 
+    {3/2, 1/2, 1, -((Subscript[OverBar[A], 1]*Subscript[OverBar[B], 0]*
+         Subscript[OverBar[C], -1/2])/Sqrt[6]) + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], -1/2])/Sqrt[6] - 
+      (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 1/2])/Sqrt[3] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], 1/2])/Sqrt[3]}, 
+    {3/2, -1/2, 2, -((Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+         Subscript[OverBar[C], -1/2])/Sqrt[15]) - 
+      (2*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], -1/2])/Sqrt[15] - 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], -1/2])/Sqrt[15] + 
+      Sqrt[3/10]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1]*
+       Subscript[OverBar[C], 1/2] + Sqrt[3/10]*Subscript[OverBar[A], -1]*
+       Subscript[OverBar[B], 0]*Subscript[OverBar[C], 1/2]}, 
+    {3/2, -1/2, 1, -((Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+         Subscript[OverBar[C], -1/2])/Sqrt[3]) + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], -1/2])/Sqrt[3] - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 1/2])/Sqrt[6] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], 1/2])/Sqrt[6]}, 
+    {3/2, -3/2, 2, -((Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1]*
+         Subscript[OverBar[C], -1/2])/Sqrt[10]) - 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], -1/2])/Sqrt[10] + 
+      (2*Subscript[OverBar[A], -1]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 1/2])/Sqrt[5]}, 
+    {3/2, -3/2, 1, -((Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1]*
+         Subscript[OverBar[C], -1/2])/Sqrt[2]) + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], -1/2])/Sqrt[2]}, 
+    {1/2, 1/2, 1, (Subscript[OverBar[A], 1]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], -1/2])/Sqrt[3] - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], -1/2])/Sqrt[3] - 
+      (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 1/2])/Sqrt[6] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], 1/2])/Sqrt[6]}, 
+    {1/2, 1/2, 0, (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 1/2])/Sqrt[3] - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], 1/2])/Sqrt[3] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], 1/2])/Sqrt[3]}, 
+    {1/2, -1/2, 1, (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], -1/2])/Sqrt[6] - 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], -1/2])/Sqrt[6] - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 1/2])/Sqrt[3] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], 1/2])/Sqrt[3]}, 
+    {1/2, -1/2, 0, (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], -1/2])/Sqrt[3] - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], -1/2])/Sqrt[3] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], -1/2])/Sqrt[3]}}
+check223 = {{7/2, 7/2, 7/2, 7/2, 7/2, 7/2, 7/2, 7/2, 5/2, 5/2, 5/2, 5/2, 5/2, 
+     5/2, 5/2, 5/2, 5/2, 5/2, 5/2, 5/2, 3/2, 3/2, 3/2, 3/2, 3/2, 3/2, 3/2, 
+     3/2, 3/2, 3/2, 3/2, 3/2, 1/2, 1/2, 1/2, 1/2}, 
+    {7/2, 5/2, 3/2, 1/2, -1/2, -3/2, -5/2, -7/2, 5/2, 5/2, 3/2, 3/2, 1/2, 
+     1/2, -1/2, -1/2, -3/2, -3/2, -5/2, -5/2, 3/2, 3/2, 3/2, 1/2, 1/2, 1/2, 
+     -1/2, -1/2, -1/2, -3/2, -3/2, -3/2, 1/2, 1/2, -1/2, -1/2}, {2, 2, 2, 2, 
+    2, 2, 2, 2, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 0, 2, 1, 0, 2, 1, 
+    0, 2, 1, 0, 2, 1, 2, 1}, {True, True, True, True, True, True, True, True, 
+     True, True, True, True, True, True, True, True, True, True, True, True, 
+     True, True, True, True, True, True, True, True, True, True, True, True, 
+     True, True, True, True}, {True, True, True, True, True, True, True, 
+     True, True, True, True, True, True, True, True, True, True, True, True, 
+     True, True, True, True, True, True, True, True, True, True, True, True, 
+     True, True, True, True, True}, {True, True, True, True, True, True, 
+     True, True, True, True, True, True, True, True, True, True, True, True, 
+     True, True, True, True, True, True, True, True, True, True, True, True, 
+     True, True, True, True, True, True}}
+tab223 = {{7/2, 7/2, 2, Subscript[OverBar[A], 1]*Subscript[OverBar[B], 1]*
+      Subscript[OverBar[C], 3/2]}, {7/2, 5/2, 2, 
+     Sqrt[3/7]*Subscript[OverBar[A], 1]*Subscript[OverBar[B], 1]*
+       Subscript[OverBar[C], 1/2] + Sqrt[2/7]*Subscript[OverBar[A], 1]*
+       Subscript[OverBar[B], 0]*Subscript[OverBar[C], 3/2] + 
+      Sqrt[2/7]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1]*
+       Subscript[OverBar[C], 3/2]}, {7/2, 3/2, 2, 
+     (Subscript[OverBar[A], 1]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], -1/2])/Sqrt[7] + 
+      Sqrt[2/7]*Subscript[OverBar[A], 1]*Subscript[OverBar[B], 0]*
+       Subscript[OverBar[C], 1/2] + Sqrt[2/7]*Subscript[OverBar[A], 0]*
+       Subscript[OverBar[B], 1]*Subscript[OverBar[C], 1/2] + 
+      (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 3/2])/Sqrt[21] + 
+      (2*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], 3/2])/Sqrt[21] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], 3/2])/Sqrt[21]}, 
+    {7/2, 1/2, 2, (Subscript[OverBar[A], 1]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], -3/2])/Sqrt[35] + 
+      Sqrt[6/35]*Subscript[OverBar[A], 1]*Subscript[OverBar[B], 0]*
+       Subscript[OverBar[C], -1/2] + Sqrt[6/35]*Subscript[OverBar[A], 0]*
+       Subscript[OverBar[B], 1]*Subscript[OverBar[C], -1/2] + 
+      Sqrt[3/35]*Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+       Subscript[OverBar[C], 1/2] + 2*Sqrt[3/35]*Subscript[OverBar[A], 0]*
+       Subscript[OverBar[B], 0]*Subscript[OverBar[C], 1/2] + 
+      Sqrt[3/35]*Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1]*
+       Subscript[OverBar[C], 1/2] + Sqrt[2/35]*Subscript[OverBar[A], 0]*
+       Subscript[OverBar[B], -1]*Subscript[OverBar[C], 3/2] + 
+      Sqrt[2/35]*Subscript[OverBar[A], -1]*Subscript[OverBar[B], 0]*
+       Subscript[OverBar[C], 3/2]}, {7/2, -1/2, 2, 
+     Sqrt[2/35]*Subscript[OverBar[A], 1]*Subscript[OverBar[B], 0]*
+       Subscript[OverBar[C], -3/2] + Sqrt[2/35]*Subscript[OverBar[A], 0]*
+       Subscript[OverBar[B], 1]*Subscript[OverBar[C], -3/2] + 
+      Sqrt[3/35]*Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+       Subscript[OverBar[C], -1/2] + 2*Sqrt[3/35]*Subscript[OverBar[A], 0]*
+       Subscript[OverBar[B], 0]*Subscript[OverBar[C], -1/2] + 
+      Sqrt[3/35]*Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1]*
+       Subscript[OverBar[C], -1/2] + Sqrt[6/35]*Subscript[OverBar[A], 0]*
+       Subscript[OverBar[B], -1]*Subscript[OverBar[C], 1/2] + 
+      Sqrt[6/35]*Subscript[OverBar[A], -1]*Subscript[OverBar[B], 0]*
+       Subscript[OverBar[C], 1/2] + (Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], -1]*Subscript[OverBar[C], 3/2])/Sqrt[35]}, 
+    {7/2, -3/2, 2, (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], -3/2])/Sqrt[21] + 
+      (2*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], -3/2])/Sqrt[21] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], -3/2])/Sqrt[21] + 
+      Sqrt[2/7]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1]*
+       Subscript[OverBar[C], -1/2] + Sqrt[2/7]*Subscript[OverBar[A], -1]*
+       Subscript[OverBar[B], 0]*Subscript[OverBar[C], -1/2] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 1/2])/Sqrt[7]}, 
+    {7/2, -5/2, 2, Sqrt[2/7]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 
+        -1]*Subscript[OverBar[C], -3/2] + Sqrt[2/7]*Subscript[OverBar[A], -1]*
+       Subscript[OverBar[B], 0]*Subscript[OverBar[C], -3/2] + 
+      Sqrt[3/7]*Subscript[OverBar[A], -1]*Subscript[OverBar[B], -1]*
+       Subscript[OverBar[C], -1/2]}, {7/2, -7/2, 2, 
+     Subscript[OverBar[A], -1]*Subscript[OverBar[B], -1]*
+      Subscript[OverBar[C], -3/2]}, {5/2, 5/2, 2, 
+     (-2*Subscript[OverBar[A], 1]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], 1/2])/Sqrt[7] + 
+      Sqrt[3/14]*Subscript[OverBar[A], 1]*Subscript[OverBar[B], 0]*
+       Subscript[OverBar[C], 3/2] + Sqrt[3/14]*Subscript[OverBar[A], 0]*
+       Subscript[OverBar[B], 1]*Subscript[OverBar[C], 3/2]}, 
+    {5/2, 5/2, 1, -((Subscript[OverBar[A], 1]*Subscript[OverBar[B], 0]*
+         Subscript[OverBar[C], 3/2])/Sqrt[2]) + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], 3/2])/Sqrt[2]}, 
+    {5/2, 3/2, 2, (-4*Subscript[OverBar[A], 1]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], -1/2])/Sqrt[35] - 
+      (Subscript[OverBar[A], 1]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], 1/2])/Sqrt[70] - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], 1/2])/Sqrt[70] + 
+      Sqrt[3/35]*Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+       Subscript[OverBar[C], 3/2] + 2*Sqrt[3/35]*Subscript[OverBar[A], 0]*
+       Subscript[OverBar[B], 0]*Subscript[OverBar[C], 3/2] + 
+      Sqrt[3/35]*Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1]*
+       Subscript[OverBar[C], 3/2]}, {5/2, 3/2, 1, 
+     -(Sqrt[3/10]*Subscript[OverBar[A], 1]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], 1/2]) + Sqrt[3/10]*Subscript[OverBar[A], 0]*
+       Subscript[OverBar[B], 1]*Subscript[OverBar[C], 1/2] - 
+      (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 3/2])/Sqrt[5] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], 3/2])/Sqrt[5]}, 
+    {5/2, 1/2, 2, -(Sqrt[6/35]*Subscript[OverBar[A], 1]*
+        Subscript[OverBar[B], 1]*Subscript[OverBar[C], -3/2]) - 
+      (Sqrt[5/7]*Subscript[OverBar[A], 1]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], -1/2])/2 - (Sqrt[5/7]*Subscript[OverBar[A], 0]*
+        Subscript[OverBar[B], 1]*Subscript[OverBar[C], -1/2])/2 + 
+      (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 1/2])/Sqrt[70] + 
+      Sqrt[2/35]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 0]*
+       Subscript[OverBar[C], 1/2] + (Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 1]*Subscript[OverBar[C], 1/2])/Sqrt[70] + 
+      (3*Sqrt[3/35]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 3/2])/2 + 
+      (3*Sqrt[3/35]*Subscript[OverBar[A], -1]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], 3/2])/2}, {5/2, 1/2, 1, 
+     -1/2*(Sqrt[3/5]*Subscript[OverBar[A], 1]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], -1/2]) + (Sqrt[3/5]*Subscript[OverBar[A], 0]*
+        Subscript[OverBar[B], 1]*Subscript[OverBar[C], -1/2])/2 - 
+      Sqrt[3/10]*Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+       Subscript[OverBar[C], 1/2] + Sqrt[3/10]*Subscript[OverBar[A], -1]*
+       Subscript[OverBar[B], 1]*Subscript[OverBar[C], 1/2] - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 3/2])/(2*Sqrt[5]) + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], 3/2])/(2*Sqrt[5])}, 
+    {5/2, -1/2, 2, (-3*Sqrt[3/35]*Subscript[OverBar[A], 1]*
+        Subscript[OverBar[B], 0]*Subscript[OverBar[C], -3/2])/2 - 
+      (3*Sqrt[3/35]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], -3/2])/2 - (Subscript[OverBar[A], 1]*
+        Subscript[OverBar[B], -1]*Subscript[OverBar[C], -1/2])/Sqrt[70] - 
+      Sqrt[2/35]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 0]*
+       Subscript[OverBar[C], -1/2] - (Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 1]*Subscript[OverBar[C], -1/2])/Sqrt[70] + 
+      (Sqrt[5/7]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 1/2])/2 + (Sqrt[5/7]*Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 0]*Subscript[OverBar[C], 1/2])/2 + 
+      Sqrt[6/35]*Subscript[OverBar[A], -1]*Subscript[OverBar[B], -1]*
+       Subscript[OverBar[C], 3/2]}, {5/2, -1/2, 1, 
+     -1/2*(Subscript[OverBar[A], 1]*Subscript[OverBar[B], 0]*
+         Subscript[OverBar[C], -3/2])/Sqrt[5] + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], -3/2])/(2*Sqrt[5]) - 
+      Sqrt[3/10]*Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+       Subscript[OverBar[C], -1/2] + Sqrt[3/10]*Subscript[OverBar[A], -1]*
+       Subscript[OverBar[B], 1]*Subscript[OverBar[C], -1/2] - 
+      (Sqrt[3/5]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 1/2])/2 + (Sqrt[3/5]*Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 0]*Subscript[OverBar[C], 1/2])/2}, 
+    {5/2, -3/2, 2, -(Sqrt[3/35]*Subscript[OverBar[A], 1]*
+        Subscript[OverBar[B], -1]*Subscript[OverBar[C], -3/2]) - 
+      2*Sqrt[3/35]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 0]*
+       Subscript[OverBar[C], -3/2] - Sqrt[3/35]*Subscript[OverBar[A], -1]*
+       Subscript[OverBar[B], 1]*Subscript[OverBar[C], -3/2] + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], -1/2])/Sqrt[70] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], -1/2])/Sqrt[70] + 
+      (4*Subscript[OverBar[A], -1]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 1/2])/Sqrt[35]}, 
+    {5/2, -3/2, 1, -((Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+         Subscript[OverBar[C], -3/2])/Sqrt[5]) + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], -3/2])/Sqrt[5] - 
+      Sqrt[3/10]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1]*
+       Subscript[OverBar[C], -1/2] + Sqrt[3/10]*Subscript[OverBar[A], -1]*
+       Subscript[OverBar[B], 0]*Subscript[OverBar[C], -1/2]}, 
+    {5/2, -5/2, 2, -(Sqrt[3/14]*Subscript[OverBar[A], 0]*
+        Subscript[OverBar[B], -1]*Subscript[OverBar[C], -3/2]) - 
+      Sqrt[3/14]*Subscript[OverBar[A], -1]*Subscript[OverBar[B], 0]*
+       Subscript[OverBar[C], -3/2] + (2*Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], -1]*Subscript[OverBar[C], -1/2])/Sqrt[7]}, 
+    {5/2, -5/2, 1, -((Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1]*
+         Subscript[OverBar[C], -3/2])/Sqrt[2]) + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], -3/2])/Sqrt[2]}, 
+    {3/2, 3/2, 2, Sqrt[2/5]*Subscript[OverBar[A], 1]*Subscript[OverBar[B], 1]*
+       Subscript[OverBar[C], -1/2] - (Subscript[OverBar[A], 1]*
+        Subscript[OverBar[B], 0]*Subscript[OverBar[C], 1/2])/Sqrt[5] - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], 1/2])/Sqrt[5] + 
+      (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 3/2])/Sqrt[30] + 
+      Sqrt[2/15]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 0]*
+       Subscript[OverBar[C], 3/2] + (Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 1]*Subscript[OverBar[C], 3/2])/Sqrt[30]}, 
+    {3/2, 3/2, 1, (Subscript[OverBar[A], 1]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], 1/2])/Sqrt[5] - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], 1/2])/Sqrt[5] - 
+      Sqrt[3/10]*Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+       Subscript[OverBar[C], 3/2] + Sqrt[3/10]*Subscript[OverBar[A], -1]*
+       Subscript[OverBar[B], 1]*Subscript[OverBar[C], 3/2]}, 
+    {3/2, 3/2, 0, (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 3/2])/Sqrt[3] - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], 3/2])/Sqrt[3] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], 3/2])/Sqrt[3]}, 
+    {3/2, 1/2, 2, Sqrt[2/5]*Subscript[OverBar[A], 1]*Subscript[OverBar[B], 1]*
+       Subscript[OverBar[C], -3/2] - (Subscript[OverBar[A], 1]*
+        Subscript[OverBar[B], -1]*Subscript[OverBar[C], 1/2])/Sqrt[30] - 
+      Sqrt[2/15]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 0]*
+       Subscript[OverBar[C], 1/2] - (Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 1]*Subscript[OverBar[C], 1/2])/Sqrt[30] + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 3/2])/Sqrt[5] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], 3/2])/Sqrt[5]}, 
+    {3/2, 1/2, 1, (2*Subscript[OverBar[A], 1]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], -1/2])/Sqrt[15] - 
+      (2*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], -1/2])/Sqrt[15] - 
+      (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 1/2])/Sqrt[30] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], 1/2])/Sqrt[30] - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 3/2])/Sqrt[5] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], 3/2])/Sqrt[5]}, 
+    {3/2, 1/2, 0, (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 1/2])/Sqrt[3] - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], 1/2])/Sqrt[3] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], 1/2])/Sqrt[3]}, 
+    {3/2, -1/2, 2, (Subscript[OverBar[A], 1]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], -3/2])/Sqrt[5] + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], -3/2])/Sqrt[5] - 
+      (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], -1/2])/Sqrt[30] - 
+      Sqrt[2/15]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 0]*
+       Subscript[OverBar[C], -1/2] - (Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 1]*Subscript[OverBar[C], -1/2])/Sqrt[30] + 
+      Sqrt[2/5]*Subscript[OverBar[A], -1]*Subscript[OverBar[B], -1]*
+       Subscript[OverBar[C], 3/2]}, {3/2, -1/2, 1, 
+     (Subscript[OverBar[A], 1]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], -3/2])/Sqrt[5] - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], -3/2])/Sqrt[5] + 
+      (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], -1/2])/Sqrt[30] - 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], -1/2])/Sqrt[30] - 
+      (2*Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 1/2])/Sqrt[15] + 
+      (2*Subscript[OverBar[A], -1]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], 1/2])/Sqrt[15]}, 
+    {3/2, -1/2, 0, (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], -1/2])/Sqrt[3] - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], -1/2])/Sqrt[3] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], -1/2])/Sqrt[3]}, 
+    {3/2, -3/2, 2, (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], -3/2])/Sqrt[30] + 
+      Sqrt[2/15]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 0]*
+       Subscript[OverBar[C], -3/2] + (Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 1]*Subscript[OverBar[C], -3/2])/Sqrt[30] - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], -1/2])/Sqrt[5] - 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], -1/2])/Sqrt[5] + 
+      Sqrt[2/5]*Subscript[OverBar[A], -1]*Subscript[OverBar[B], -1]*
+       Subscript[OverBar[C], 1/2]}, {3/2, -3/2, 1, 
+     Sqrt[3/10]*Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+       Subscript[OverBar[C], -3/2] - Sqrt[3/10]*Subscript[OverBar[A], -1]*
+       Subscript[OverBar[B], 1]*Subscript[OverBar[C], -3/2] - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], -1/2])/Sqrt[5] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], -1/2])/Sqrt[5]}, 
+    {3/2, -3/2, 0, (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], -3/2])/Sqrt[3] - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], -3/2])/Sqrt[3] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], -3/2])/Sqrt[3]}, 
+    {1/2, 1/2, 2, -(Sqrt[2/5]*Subscript[OverBar[A], 1]*Subscript[OverBar[B], 
+         1]*Subscript[OverBar[C], -3/2]) + 
+      (Sqrt[3/5]*Subscript[OverBar[A], 1]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], -1/2])/2 + (Sqrt[3/5]*Subscript[OverBar[A], 0]*
+        Subscript[OverBar[B], 1]*Subscript[OverBar[C], -1/2])/2 - 
+      (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 1/2])/Sqrt[30] - 
+      Sqrt[2/15]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 0]*
+       Subscript[OverBar[C], 1/2] - (Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 1]*Subscript[OverBar[C], 1/2])/Sqrt[30] + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 3/2])/(2*Sqrt[5]) + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], 3/2])/(2*Sqrt[5])}, 
+    {1/2, 1/2, 1, -1/2*(Subscript[OverBar[A], 1]*Subscript[OverBar[B], 0]*
+         Subscript[OverBar[C], -1/2])/Sqrt[3] + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], -1/2])/(2*Sqrt[3]) + 
+      (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 1/2])/Sqrt[6] - 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], 1/2])/Sqrt[6] - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 3/2])/2 + (Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 0]*Subscript[OverBar[C], 3/2])/2}, 
+    {1/2, -1/2, 2, -1/2*(Subscript[OverBar[A], 1]*Subscript[OverBar[B], 0]*
+         Subscript[OverBar[C], -3/2])/Sqrt[5] - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], -3/2])/(2*Sqrt[5]) + 
+      (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], -1/2])/Sqrt[30] + 
+      Sqrt[2/15]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 0]*
+       Subscript[OverBar[C], -1/2] + (Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 1]*Subscript[OverBar[C], -1/2])/Sqrt[30] - 
+      (Sqrt[3/5]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 1/2])/2 - (Sqrt[3/5]*Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 0]*Subscript[OverBar[C], 1/2])/2 + 
+      Sqrt[2/5]*Subscript[OverBar[A], -1]*Subscript[OverBar[B], -1]*
+       Subscript[OverBar[C], 3/2]}, {1/2, -1/2, 1, 
+     -1/2*(Subscript[OverBar[A], 1]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], -3/2]) + (Subscript[OverBar[A], 0]*
+        Subscript[OverBar[B], 1]*Subscript[OverBar[C], -3/2])/2 + 
+      (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], -1/2])/Sqrt[6] - 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1]*
+        Subscript[OverBar[C], -1/2])/Sqrt[6] - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1]*
+        Subscript[OverBar[C], 1/2])/(2*Sqrt[3]) + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 0]*
+        Subscript[OverBar[C], 1/2])/(2*Sqrt[3])}}
+check211 = {{2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 0}, {2, 1, 0, -1, -2, 1, 1, 0, 
+     0, -1, -1, 0}, {3/2, 3/2, 3/2, 3/2, 3/2, 3/2, 1/2, 3/2, 1/2, 3/2, 1/2, 
+     1/2}, {True, True, True, True, True, True, True, True, True, True, True, 
+     True}, {True, True, True, True, True, True, True, True, True, True, 
+     True, True}, {True, True, True, True, True, True, True, True, True, 
+     True, True, True}}
+tab211 = {{2, 2, 3/2, Subscript[OverBar[A], 1]*Subscript[OverBar[B], 1/2]*
+      Subscript[OverBar[C], 1/2]}, {2, 1, 3/2, 
+     (Subscript[OverBar[A], 1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/2 + (Subscript[OverBar[A], 1]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 1/2])/2 + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[2]}, 
+    {2, 0, 3/2, (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[6] + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[3] + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[3] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[6]}, 
+    {2, -1, 3/2, (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[2] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/2 + (Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 1/2])/2}, 
+    {2, -2, 3/2, Subscript[OverBar[A], -1]*Subscript[OverBar[B], -1/2]*
+      Subscript[OverBar[C], -1/2]}, {1, 1, 3/2, 
+     -1/2*(Sqrt[3]*Subscript[OverBar[A], 1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2]) + (Subscript[OverBar[A], 1]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 1/2])/(2*Sqrt[3]) + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[6]}, 
+    {1, 1, 1/2, -(Sqrt[2/3]*Subscript[OverBar[A], 1]*Subscript[OverBar[B], 
+         -1/2]*Subscript[OverBar[C], 1/2]) + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[3]}, 
+    {1, 0, 3/2, -((Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1/2]*
+         Subscript[OverBar[C], -1/2])/Sqrt[6]) - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[3] + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[3] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[6]}, 
+    {1, 0, 1/2, -((Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1/2]*
+         Subscript[OverBar[C], -1/2])/Sqrt[3]) + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[6] - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[6] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[3]}, 
+    {1, -1, 3/2, -((Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1/2]*
+         Subscript[OverBar[C], -1/2])/Sqrt[6]) - 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/(2*Sqrt[3]) + 
+      (Sqrt[3]*Subscript[OverBar[A], -1]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/2}, {1, -1, 1/2, 
+     -((Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1/2]*
+         Subscript[OverBar[C], -1/2])/Sqrt[3]) + 
+      Sqrt[2/3]*Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1/2]*
+       Subscript[OverBar[C], -1/2]}, {0, 0, 1/2, 
+     (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[3] - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[6] - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[6] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[3]}}
+check213 = {{3, 3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 
+    1, 1, 0}, {3, 2, 1, 0, -1, -2, -3, 2, 2, 1, 1, 0, 0, -1, -1, -2, -2, 1, 
+     1, 0, 0, -1, -1, 0}, {3/2, 3/2, 3/2, 3/2, 3/2, 3/2, 3/2, 3/2, 1/2, 3/2, 
+     1/2, 3/2, 1/2, 3/2, 1/2, 3/2, 1/2, 3/2, 1/2, 3/2, 1/2, 3/2, 1/2, 3/2}, 
+    {True, True, True, True, True, True, True, True, True, True, True, True, 
+     True, True, True, True, True, True, True, True, True, True, True, True}, 
+    {True, True, True, True, True, True, True, True, True, True, True, True, 
+     True, True, True, True, True, True, True, True, True, True, True, True}, 
+    {True, True, True, True, True, True, True, True, True, True, True, True, 
+     True, True, True, True, True, True, True, True, True, True, True, True}}
+tab213 = {{3, 3, 3/2, Subscript[OverBar[A], 1]*Subscript[OverBar[B], 1/2]*
+      Subscript[OverBar[C], 3/2]}, {3, 2, 3/2, 
+     (Subscript[OverBar[A], 1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[2] + 
+      (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[6] + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[3]}, 
+    {3, 1, 3/2, (Subscript[OverBar[A], 1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[5] + 
+      (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[5] + 
+      Sqrt[2/5]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+       Subscript[OverBar[C], 1/2] + Sqrt[2/15]*Subscript[OverBar[A], 0]*
+       Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 3/2] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[15]}, 
+    {3, 0, 3/2, (Subscript[OverBar[A], 1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2])/(2*Sqrt[5]) + 
+      (Sqrt[3/5]*Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -1/2])/2 + Sqrt[3/10]*Subscript[OverBar[A], 0]*
+       Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], -1/2] + 
+      Sqrt[3/10]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1/2]*
+       Subscript[OverBar[C], 1/2] + (Sqrt[3/5]*Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], 1/2])/2 + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 3/2])/(2*Sqrt[5])}, 
+    {3, -1, 3/2, (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[15] + 
+      Sqrt[2/15]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+       Subscript[OverBar[C], -3/2] + Sqrt[2/5]*Subscript[OverBar[A], 0]*
+       Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], -1/2] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[5] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[5]}, 
+    {3, -2, 3/2, (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[3] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[6] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[2]}, 
+    {3, -3, 3/2, Subscript[OverBar[A], -1]*Subscript[OverBar[B], -1/2]*
+      Subscript[OverBar[C], -3/2]}, {2, 2, 3/2, 
+     -((Subscript[OverBar[A], 1]*Subscript[OverBar[B], 1/2]*
+         Subscript[OverBar[C], 1/2])/Sqrt[2]) + 
+      (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[6] + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[3]}, 
+    {2, 2, 1/2, -(Sqrt[2/3]*Subscript[OverBar[A], 1]*Subscript[OverBar[B], 
+         -1/2]*Subscript[OverBar[C], 3/2]) + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[3]}, 
+    {2, 1, 3/2, -((Subscript[OverBar[A], 1]*Subscript[OverBar[B], 1/2]*
+         Subscript[OverBar[C], -1/2])/Sqrt[2]) + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[3] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[6]}, 
+    {2, 1, 1/2, -((Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1/2]*
+         Subscript[OverBar[C], 1/2])/Sqrt[2]) + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/2 - (Subscript[OverBar[A], 0]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 3/2])/(2*Sqrt[3]) + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[6]}, 
+    {2, 0, 3/2, -1/2*(Subscript[OverBar[A], 1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2]) - (Subscript[OverBar[A], 1]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], -1/2])/
+       (2*Sqrt[3]) - (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[6] + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[6] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/(2*Sqrt[3]) + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 3/2])/2}, {2, 0, 1/2, 
+     -((Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1/2]*
+         Subscript[OverBar[C], -1/2])/Sqrt[3]) + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[6] - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[6] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[3]}, 
+    {2, -1, 3/2, -((Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1/2]*
+         Subscript[OverBar[C], -3/2])/Sqrt[6]) - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[3] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[2]}, 
+    {2, -1, 1/2, -((Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1/2]*
+         Subscript[OverBar[C], -3/2])/Sqrt[6]) + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2])/(2*Sqrt[3]) - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -1/2])/2 + (Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], -1/2])/Sqrt[2]}, 
+    {2, -2, 3/2, -((Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1/2]*
+         Subscript[OverBar[C], -3/2])/Sqrt[3]) - 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[6] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[2]}, 
+    {2, -2, 1/2, -((Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1/2]*
+         Subscript[OverBar[C], -3/2])/Sqrt[3]) + 
+      Sqrt[2/3]*Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1/2]*
+       Subscript[OverBar[C], -3/2]}, {1, 1, 3/2, 
+     Sqrt[3/10]*Subscript[OverBar[A], 1]*Subscript[OverBar[B], 1/2]*
+       Subscript[OverBar[C], -1/2] - Sqrt[2/15]*Subscript[OverBar[A], 1]*
+       Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 1/2] - 
+      (2*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[15] + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[5] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[10]}, 
+    {1, 1, 1/2, (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[6] - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/(2*Sqrt[3]) - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 3/2])/2 + (Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], 3/2])/Sqrt[2]}, 
+    {1, 0, 3/2, (3*Subscript[OverBar[A], 1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2])/(2*Sqrt[5]) - 
+      (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -1/2])/(2*Sqrt[15]) - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[30] - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[30] - 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/(2*Sqrt[15]) + 
+      (3*Subscript[OverBar[A], -1]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 3/2])/(2*Sqrt[5])}, 
+    {1, 0, 1/2, (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[3] - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[6] - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[6] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[3]}, 
+    {1, -1, 3/2, (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[10] + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[5] - 
+      (2*Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[15] - 
+      Sqrt[2/15]*Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1/2]*
+       Subscript[OverBar[C], -1/2] + Sqrt[3/10]*Subscript[OverBar[A], -1]*
+       Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 1/2]}, 
+    {1, -1, 1/2, (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[2] - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2])/2 - (Subscript[OverBar[A], 0]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], -1/2])/
+       (2*Sqrt[3]) + (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[6]}, 
+    {0, 0, 3/2, -1/2*(Subscript[OverBar[A], 1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2]) + (Subscript[OverBar[A], 1]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], -1/2])/
+       (2*Sqrt[3]) + (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[6] - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[6] - 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/(2*Sqrt[3]) + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 3/2])/2}}
+check233 = {{4, 4, 4, 4, 4, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 
+    3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 
+    1, 1, 0}, {4, 3, 2, 1, 0, -1, -2, -3, -4, 3, 3, 2, 2, 1, 1, 0, 0, -1, -1, 
+     -2, -2, -3, -3, 2, 2, 2, 1, 1, 1, 0, 0, 0, -1, -1, -1, -2, -2, -2, 1, 1, 
+     1, 0, 0, 0, -1, -1, -1, 0}, {5/2, 5/2, 5/2, 5/2, 5/2, 5/2, 5/2, 5/2, 
+     5/2, 5/2, 3/2, 5/2, 3/2, 5/2, 3/2, 5/2, 3/2, 5/2, 3/2, 5/2, 3/2, 5/2, 
+     3/2, 5/2, 3/2, 1/2, 5/2, 3/2, 1/2, 5/2, 3/2, 1/2, 5/2, 3/2, 1/2, 5/2, 
+     3/2, 1/2, 5/2, 3/2, 1/2, 5/2, 3/2, 1/2, 5/2, 3/2, 1/2, 3/2}, 
+    {True, True, True, True, True, True, True, True, True, True, True, True, 
+     True, True, True, True, True, True, True, True, True, True, True, True, 
+     True, True, True, True, True, True, True, True, True, True, True, True, 
+     True, True, True, True, True, True, True, True, True, True, True, True}, 
+    {True, True, True, True, True, True, True, True, True, True, True, True, 
+     True, True, True, True, True, True, True, True, True, True, True, True, 
+     True, True, True, True, True, True, True, True, True, True, True, True, 
+     True, True, True, True, True, True, True, True, True, True, True, True}, 
+    {True, True, True, True, True, True, True, True, True, True, True, True, 
+     True, True, True, True, True, True, True, True, True, True, True, True, 
+     True, True, True, True, True, True, True, True, True, True, True, True, 
+     True, True, True, True, True, True, True, True, True, True, True, True}}
+tab233 = {{4, 4, 5/2, Subscript[OverBar[A], 1]*Subscript[OverBar[B], 3/2]*
+      Subscript[OverBar[C], 3/2]}, {4, 3, 5/2, 
+     (Sqrt[3/2]*Subscript[OverBar[A], 1]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], 1/2])/2 + (Sqrt[3/2]*Subscript[OverBar[A], 1]*
+        Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], 3/2])/2 + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], 3/2])/2}, {4, 2, 5/2, 
+     (Sqrt[3/7]*Subscript[OverBar[A], 1]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -1/2])/2 + (3*Subscript[OverBar[A], 1]*
+        Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], 1/2])/(2*Sqrt[7]) + 
+      Sqrt[3/14]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 3/2]*
+       Subscript[OverBar[C], 1/2] + (Sqrt[3/7]*Subscript[OverBar[A], 1]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 3/2])/2 + 
+      Sqrt[3/14]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+       Subscript[OverBar[C], 3/2] + (Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], 3/2])/(2*Sqrt[7])}, 
+    {4, 1, 5/2, (Subscript[OverBar[A], 1]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -3/2])/(2*Sqrt[14]) + 
+      (3*Subscript[OverBar[A], 1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/(2*Sqrt[14]) + 
+      (Sqrt[3/7]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -1/2])/2 + (3*Subscript[OverBar[A], 1]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 1/2])/
+       (2*Sqrt[14]) + (3*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/(2*Sqrt[7]) + 
+      (Sqrt[3/14]*Subscript[OverBar[A], -1]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], 1/2])/2 + (Subscript[OverBar[A], 1]*
+        Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], 3/2])/
+       (2*Sqrt[14]) + (Sqrt[3/7]*Subscript[OverBar[A], 0]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 3/2])/2 + 
+      (Sqrt[3/14]*Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 3/2])/2}, {4, 0, 5/2, 
+     Sqrt[3/70]*Subscript[OverBar[A], 1]*Subscript[OverBar[B], 1/2]*
+       Subscript[OverBar[C], -3/2] + (Subscript[OverBar[A], 0]*
+        Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], -3/2])/Sqrt[35] + 
+      (3*Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[70] + 
+      (3*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[35] + 
+      Sqrt[3/70]*Subscript[OverBar[A], -1]*Subscript[OverBar[B], 3/2]*
+       Subscript[OverBar[C], -1/2] + Sqrt[3/70]*Subscript[OverBar[A], 1]*
+       Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], 1/2] + 
+      (3*Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[35] + 
+      (3*Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[70] + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[35] + 
+      Sqrt[3/70]*Subscript[OverBar[A], -1]*Subscript[OverBar[B], -1/2]*
+       Subscript[OverBar[C], 3/2]}, {4, -1, 5/2, 
+     (Sqrt[3/14]*Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -3/2])/2 + (Sqrt[3/7]*Subscript[OverBar[A], 0]*
+        Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], -3/2])/2 + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -3/2])/(2*Sqrt[14]) + 
+      (Sqrt[3/14]*Subscript[OverBar[A], 1]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], -1/2])/2 + (3*Subscript[OverBar[A], 0]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], -1/2])/
+       (2*Sqrt[7]) + (3*Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/(2*Sqrt[14]) + 
+      (Sqrt[3/7]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 1/2])/2 + (3*Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 1/2])/
+       (2*Sqrt[14]) + (Subscript[OverBar[A], -1]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 3/2])/(2*Sqrt[14])}, 
+    {4, -2, 5/2, (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], -3/2])/(2*Sqrt[7]) + 
+      Sqrt[3/14]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1/2]*
+       Subscript[OverBar[C], -3/2] + (Sqrt[3/7]*Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], -3/2])/2 + 
+      Sqrt[3/14]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], -3/2]*
+       Subscript[OverBar[C], -1/2] + (3*Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], -1/2])/
+       (2*Sqrt[7]) + (Sqrt[3/7]*Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], 1/2])/2}, 
+    {4, -3, 5/2, (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], -3/2])/2 + (Sqrt[3/2]*Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], -3/2])/2 + 
+      (Sqrt[3/2]*Subscript[OverBar[A], -1]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], -1/2])/2}, {4, -4, 5/2, 
+     Subscript[OverBar[A], -1]*Subscript[OverBar[B], -3/2]*
+      Subscript[OverBar[C], -3/2]}, {3, 3, 5/2, 
+     -1/2*(Sqrt[5/2]*Subscript[OverBar[A], 1]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], 1/2]) + (3*Subscript[OverBar[A], 1]*
+        Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], 3/2])/(2*Sqrt[10]) + 
+      (Sqrt[3/5]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], 3/2])/2}, {3, 3, 3/2, 
+     -(Sqrt[2/5]*Subscript[OverBar[A], 1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 3/2]) + Sqrt[3/5]*Subscript[OverBar[A], 0]*
+       Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], 3/2]}, 
+    {3, 2, 5/2, -1/2*(Sqrt[5/3]*Subscript[OverBar[A], 1]*
+        Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], -1/2]) - 
+      (Subscript[OverBar[A], 1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/(2*Sqrt[5]) - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[30] + 
+      (Sqrt[3/5]*Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 3/2])/2 + Sqrt[3/10]*Subscript[OverBar[A], 0]*
+       Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], 3/2] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], 3/2])/(2*Sqrt[5])}, 
+    {3, 2, 3/2, -((Subscript[OverBar[A], 1]*Subscript[OverBar[B], 1/2]*
+         Subscript[OverBar[C], 1/2])/Sqrt[5]) + 
+      Sqrt[3/10]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 3/2]*
+       Subscript[OverBar[C], 1/2] - (2*Subscript[OverBar[A], 1]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 3/2])/Sqrt[15] + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[30] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[5]}, 
+    {3, 1, 5/2, -1/2*(Subscript[OverBar[A], 1]*Subscript[OverBar[B], 3/2]*
+         Subscript[OverBar[C], -3/2])/Sqrt[2] - 
+      (7*Subscript[OverBar[A], 1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/(10*Sqrt[2]) - 
+      (7*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -1/2])/(10*Sqrt[3]) + 
+      (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/(10*Sqrt[2]) + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/10 + (Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], 1/2])/(10*Sqrt[6]) + 
+      (3*Subscript[OverBar[A], 1]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 3/2])/(10*Sqrt[2]) + 
+      (3*Sqrt[3]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 3/2])/10 + 
+      (3*Sqrt[3/2]*Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 3/2])/10}, 
+    {3, 1, 3/2, -1/5*(Sqrt[2]*Subscript[OverBar[A], 1]*Subscript[OverBar[B], 
+         1/2]*Subscript[OverBar[C], -1/2]) + 
+      (Sqrt[3]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -1/2])/5 - (2*Sqrt[2]*Subscript[OverBar[A], 1]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 1/2])/5 + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/5 + (Sqrt[6]*Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], 1/2])/5 - 
+      (Sqrt[2]*Subscript[OverBar[A], 1]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 3/2])/5 - (Subscript[OverBar[A], 0]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 3/2])/(5*Sqrt[3]) + 
+      (2*Sqrt[2/3]*Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 3/2])/5}, {3, 0, 5/2, 
+     (-3*Subscript[OverBar[A], 1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2])/(5*Sqrt[2]) - 
+      (Sqrt[3]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -3/2])/5 - (Sqrt[3/2]*Subscript[OverBar[A], 1]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], -1/2])/5 - 
+      (Sqrt[3]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/5 - (Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], -1/2])/(5*Sqrt[2]) + 
+      (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 1/2])/(5*Sqrt[2]) + 
+      (Sqrt[3]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/5 + (Sqrt[3/2]*Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], 1/2])/5 + 
+      (Sqrt[3]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 3/2])/5 + (3*Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 3/2])/(5*Sqrt[2])}, 
+    {3, 0, 3/2, -1/5*(Subscript[OverBar[A], 1]*Subscript[OverBar[B], 1/2]*
+         Subscript[OverBar[C], -3/2])/Sqrt[2] + 
+      (Sqrt[3]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -3/2])/10 - (Sqrt[6]*Subscript[OverBar[A], 1]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], -1/2])/5 + 
+      (Sqrt[3]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/10 + (3*Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], -1/2])/(5*Sqrt[2]) - 
+      (3*Subscript[OverBar[A], 1]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 1/2])/(5*Sqrt[2]) - 
+      (Sqrt[3]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/10 + (Sqrt[6]*Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], 1/2])/5 - 
+      (Sqrt[3]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 3/2])/10 + (Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 3/2])/(5*Sqrt[2])}, 
+    {3, -1, 5/2, (-3*Sqrt[3/2]*Subscript[OverBar[A], 1]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], -3/2])/10 - 
+      (3*Sqrt[3]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2])/10 - (3*Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], -3/2])/
+       (10*Sqrt[2]) - (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], -1/2])/(10*Sqrt[6]) - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -1/2])/10 - (Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], -1/2])/
+       (10*Sqrt[2]) + (7*Subscript[OverBar[A], 0]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 1/2])/(10*Sqrt[3]) + 
+      (7*Subscript[OverBar[A], -1]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/(10*Sqrt[2]) + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 3/2])/(2*Sqrt[2])}, 
+    {3, -1, 3/2, (-2*Sqrt[2/3]*Subscript[OverBar[A], 1]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], -3/2])/5 + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2])/(5*Sqrt[3]) + 
+      (Sqrt[2]*Subscript[OverBar[A], -1]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -3/2])/5 - (Sqrt[6]*Subscript[OverBar[A], 1]*
+        Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], -1/2])/5 - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -1/2])/5 + (2*Sqrt[2]*Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], -1/2])/5 - 
+      (Sqrt[3]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 1/2])/5 + (Sqrt[2]*Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 1/2])/5}, 
+    {3, -2, 5/2, -1/2*(Subscript[OverBar[A], 1]*Subscript[OverBar[B], -3/2]*
+         Subscript[OverBar[C], -3/2])/Sqrt[5] - 
+      Sqrt[3/10]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1/2]*
+       Subscript[OverBar[C], -3/2] - (Sqrt[3/5]*Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], -3/2])/2 + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[30] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -1/2])/(2*Sqrt[5]) + 
+      (Sqrt[5/3]*Subscript[OverBar[A], -1]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 1/2])/2}, {3, -2, 3/2, 
+     -((Subscript[OverBar[A], 1]*Subscript[OverBar[B], -3/2]*
+         Subscript[OverBar[C], -3/2])/Sqrt[5]) - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[30] + 
+      (2*Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[15] - 
+      Sqrt[3/10]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], -3/2]*
+       Subscript[OverBar[C], -1/2] + (Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], -1/2])/Sqrt[5]}, 
+    {3, -3, 5/2, -1/2*(Sqrt[3/5]*Subscript[OverBar[A], 0]*
+        Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], -3/2]) - 
+      (3*Subscript[OverBar[A], -1]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -3/2])/(2*Sqrt[10]) + 
+      (Sqrt[5/2]*Subscript[OverBar[A], -1]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], -1/2])/2}, {3, -3, 3/2, 
+     -(Sqrt[3/5]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], -3/2]) + Sqrt[2/5]*Subscript[OverBar[A], -1]*
+       Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], -3/2]}, 
+    {2, 2, 5/2, Sqrt[10/21]*Subscript[OverBar[A], 1]*Subscript[OverBar[B], 
+        3/2]*Subscript[OverBar[C], -1/2] - 2*Sqrt[2/35]*
+       Subscript[OverBar[A], 1]*Subscript[OverBar[B], 1/2]*
+       Subscript[OverBar[C], 1/2] - (4*Subscript[OverBar[A], 0]*
+        Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], 1/2])/Sqrt[105] + 
+      Sqrt[3/70]*Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1/2]*
+       Subscript[OverBar[C], 3/2] + Sqrt[3/35]*Subscript[OverBar[A], 0]*
+       Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], 3/2] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[70]}, 
+    {2, 2, 3/2, (Subscript[OverBar[A], 1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[5] - 
+      Sqrt[3/10]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 3/2]*
+       Subscript[OverBar[C], 1/2] - (2*Subscript[OverBar[A], 1]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 3/2])/Sqrt[15] + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[30] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[5]}, 
+    {2, 2, 1/2, (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[6] - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[3] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[2]}, 
+    {2, 1, 5/2, Sqrt[5/14]*Subscript[OverBar[A], 1]*Subscript[OverBar[B], 
+        3/2]*Subscript[OverBar[C], -3/2] + 
+      (Subscript[OverBar[A], 1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[70] + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[105] - 
+      (Sqrt[5/14]*Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/2 - (Sqrt[5/7]*Subscript[OverBar[A], 0]*
+        Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], 1/2])/2 - 
+      (Sqrt[5/42]*Subscript[OverBar[A], -1]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], 1/2])/2 + (3*Subscript[OverBar[A], 1]*
+        Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], 3/2])/
+       (2*Sqrt[70]) + (3*Sqrt[3/35]*Subscript[OverBar[A], 0]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 3/2])/2 + 
+      (3*Sqrt[3/70]*Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 3/2])/2}, {2, 1, 3/2, 
+     (Subscript[OverBar[A], 1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[5] - 
+      Sqrt[3/10]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 3/2]*
+       Subscript[OverBar[C], -1/2] - (Subscript[OverBar[A], 1]*
+        Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], 3/2])/Sqrt[5] - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[30] + 
+      (2*Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[15]}, 
+    {2, 1, 1/2, (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/(2*Sqrt[2]) - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/2 + (Sqrt[3/2]*Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], 1/2])/2 + 
+      (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 3/2])/(2*Sqrt[2]) - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 3/2])/(2*Sqrt[3]) + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 3/2])/(2*Sqrt[6])}, 
+    {2, 0, 5/2, (3*Subscript[OverBar[A], 1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[35] + 
+      Sqrt[6/35]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 3/2]*
+       Subscript[OverBar[C], -3/2] - (Sqrt[3/35]*Subscript[OverBar[A], 1]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], -1/2])/2 - 
+      Sqrt[3/70]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+       Subscript[OverBar[C], -1/2] - (Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], -1/2])/
+       (2*Sqrt[35]) - (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 1/2])/(2*Sqrt[35]) - 
+      Sqrt[3/70]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1/2]*
+       Subscript[OverBar[C], 1/2] - (Sqrt[3/35]*Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], 1/2])/2 + 
+      Sqrt[6/35]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], -3/2]*
+       Subscript[OverBar[C], 3/2] + (3*Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 3/2])/Sqrt[35]}, 
+    {2, 0, 3/2, (Subscript[OverBar[A], 1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[10] - 
+      (Sqrt[3/5]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -3/2])/2 + Sqrt[2/15]*Subscript[OverBar[A], 1]*
+       Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], -1/2] - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/(2*Sqrt[15]) - 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[10] - 
+      (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[10] - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/(2*Sqrt[15]) + 
+      Sqrt[2/15]*Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1/2]*
+       Subscript[OverBar[C], 1/2] - (Sqrt[3/5]*Subscript[OverBar[A], 0]*
+        Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], 3/2])/2 + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[10]}, 
+    {2, 0, 1/2, (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -1/2])/(2*Sqrt[3]) - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[6] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -1/2])/2 + (Subscript[OverBar[A], 1]*
+        Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], 1/2])/2 - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[6] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/(2*Sqrt[3])}, 
+    {2, -1, 5/2, (3*Sqrt[3/70]*Subscript[OverBar[A], 1]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], -3/2])/2 + 
+      (3*Sqrt[3/35]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2])/2 + (3*Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], -3/2])/
+       (2*Sqrt[70]) - (Sqrt[5/42]*Subscript[OverBar[A], 1]*
+        Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], -1/2])/2 - 
+      (Sqrt[5/7]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -1/2])/2 - 
+      (Sqrt[5/14]*Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/2 + (Subscript[OverBar[A], 0]*
+        Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], 1/2])/Sqrt[105] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[70] + 
+      Sqrt[5/14]*Subscript[OverBar[A], -1]*Subscript[OverBar[B], -3/2]*
+       Subscript[OverBar[C], 3/2]}, {2, -1, 3/2, 
+     (2*Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[15] - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[30] - 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[5] - 
+      Sqrt[3/10]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], -3/2]*
+       Subscript[OverBar[C], 1/2] + (Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 1/2])/Sqrt[5]}, 
+    {2, -1, 1/2, (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -3/2])/(2*Sqrt[6]) - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2])/(2*Sqrt[3]) + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -3/2])/(2*Sqrt[2]) + 
+      (Sqrt[3/2]*Subscript[OverBar[A], 1]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], -1/2])/2 - (Subscript[OverBar[A], 0]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], -1/2])/2 + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/(2*Sqrt[2])}, 
+    {2, -2, 5/2, (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[70] + 
+      Sqrt[3/35]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1/2]*
+       Subscript[OverBar[C], -3/2] + Sqrt[3/70]*Subscript[OverBar[A], -1]*
+       Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], -3/2] - 
+      (4*Subscript[OverBar[A], 0]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[105] - 
+      2*Sqrt[2/35]*Subscript[OverBar[A], -1]*Subscript[OverBar[B], -1/2]*
+       Subscript[OverBar[C], -1/2] + Sqrt[10/21]*Subscript[OverBar[A], -1]*
+       Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], 1/2]}, 
+    {2, -2, 3/2, (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[5] + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[30] - 
+      (2*Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[15] - 
+      Sqrt[3/10]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], -3/2]*
+       Subscript[OverBar[C], -1/2] + (Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], -1/2])/Sqrt[5]}, 
+    {2, -2, 1/2, (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[2] - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[3] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[6]}, 
+    {1, 1, 5/2, -((Subscript[OverBar[A], 1]*Subscript[OverBar[B], 3/2]*
+         Subscript[OverBar[C], -3/2])/Sqrt[2]) + 
+      (3*Subscript[OverBar[A], 1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/(5*Sqrt[2]) + 
+      (Sqrt[3]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -1/2])/5 - (3*Subscript[OverBar[A], 1]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 1/2])/
+       (10*Sqrt[2]) - (3*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/10 - (Sqrt[3/2]*Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], 1/2])/10 + 
+      (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 3/2])/(10*Sqrt[2]) + 
+      (Sqrt[3]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 3/2])/10 + (Sqrt[3/2]*Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], 3/2])/10}, 
+    {1, 1, 3/2, -1/5*(Sqrt[3]*Subscript[OverBar[A], 1]*Subscript[OverBar[B], 
+         1/2]*Subscript[OverBar[C], -1/2]) + 
+      (3*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -1/2])/(5*Sqrt[2]) + 
+      (4*Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/(5*Sqrt[3]) - 
+      (Sqrt[2/3]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/5 - (2*Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], 1/2])/5 - 
+      (Sqrt[3]*Subscript[OverBar[A], 1]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 3/2])/5 - (Subscript[OverBar[A], 0]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 3/2])/(5*Sqrt[2]) + 
+      (2*Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 3/2])/5}, {1, 1, 1/2, 
+     -1/2*(Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1/2]*
+         Subscript[OverBar[C], 1/2])/Sqrt[6] + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/(2*Sqrt[3]) - 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], 1/2])/(2*Sqrt[2]) + 
+      (Sqrt[3/2]*Subscript[OverBar[A], 1]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 3/2])/2 - (Subscript[OverBar[A], 0]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 3/2])/2 + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 3/2])/(2*Sqrt[2])}, 
+    {1, 0, 5/2, -1/5*(Sqrt[3]*Subscript[OverBar[A], 1]*Subscript[OverBar[B], 
+         1/2]*Subscript[OverBar[C], -3/2]) - 
+      (Sqrt[2]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -3/2])/5 + (3*Subscript[OverBar[A], 1]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], -1/2])/10 + 
+      (3*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/(5*Sqrt[2]) + 
+      (Sqrt[3]*Subscript[OverBar[A], -1]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -1/2])/10 - (Sqrt[3]*Subscript[OverBar[A], 1]*
+        Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], 1/2])/10 - 
+      (3*Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/(5*Sqrt[2]) - 
+      (3*Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/10 + (Sqrt[2]*Subscript[OverBar[A], 0]*
+        Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], 3/2])/5 + 
+      (Sqrt[3]*Subscript[OverBar[A], -1]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 3/2])/5}, {1, 0, 3/2, 
+     (-3*Subscript[OverBar[A], 1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2])/(5*Sqrt[2]) + 
+      (3*Sqrt[3]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -3/2])/10 + (Sqrt[2/3]*Subscript[OverBar[A], 1]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], -1/2])/5 - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/(10*Sqrt[3]) - 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -1/2])/(5*Sqrt[2]) + 
+      (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 1/2])/(5*Sqrt[2]) + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/(10*Sqrt[3]) - 
+      (Sqrt[2/3]*Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/5 - (3*Sqrt[3]*Subscript[OverBar[A], 0]*
+        Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], 3/2])/10 + 
+      (3*Subscript[OverBar[A], -1]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 3/2])/(5*Sqrt[2])}, 
+    {1, 0, 1/2, -1/2*(Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1/2]*
+         Subscript[OverBar[C], -1/2])/Sqrt[3] + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[6] - 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -1/2])/2 + (Subscript[OverBar[A], 1]*
+        Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], 1/2])/2 - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[6] + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/(2*Sqrt[3])}, 
+    {1, -1, 5/2, -1/10*(Sqrt[3/2]*Subscript[OverBar[A], 1]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], -3/2]) - 
+      (Sqrt[3]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2])/10 - (Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], -3/2])/
+       (10*Sqrt[2]) + (Sqrt[3/2]*Subscript[OverBar[A], 1]*
+        Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], -1/2])/10 + 
+      (3*Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -1/2])/10 + (3*Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], -1/2])/
+       (10*Sqrt[2]) - (Sqrt[3]*Subscript[OverBar[A], 0]*
+        Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], 1/2])/5 - 
+      (3*Subscript[OverBar[A], -1]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/(5*Sqrt[2]) + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[2]}, 
+    {1, -1, 3/2, (-2*Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -3/2])/5 + (Subscript[OverBar[A], 0]*
+        Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], -3/2])/(5*Sqrt[2]) + 
+      (Sqrt[3]*Subscript[OverBar[A], -1]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -3/2])/5 + (2*Subscript[OverBar[A], 1]*
+        Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], -1/2])/5 + 
+      (Sqrt[2/3]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -1/2])/5 - (4*Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], -1/2])/(5*Sqrt[3]) - 
+      (3*Subscript[OverBar[A], 0]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 1/2])/(5*Sqrt[2]) + 
+      (Sqrt[3]*Subscript[OverBar[A], -1]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/5}, {1, -1, 1/2, 
+     -1/2*(Subscript[OverBar[A], 1]*Subscript[OverBar[B], -1/2]*
+         Subscript[OverBar[C], -3/2])/Sqrt[2] + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2])/2 - (Sqrt[3/2]*Subscript[OverBar[A], -1]*
+        Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], -3/2])/2 + 
+      (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], -1/2])/(2*Sqrt[2]) - 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -1/2])/(2*Sqrt[3]) + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/(2*Sqrt[6])}, 
+    {0, 0, 3/2, (Subscript[OverBar[A], 1]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[10] - 
+      (Sqrt[3/5]*Subscript[OverBar[A], 0]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -3/2])/2 - Sqrt[2/15]*Subscript[OverBar[A], 1]*
+       Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], -1/2] + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/(2*Sqrt[15]) + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[10] + 
+      (Subscript[OverBar[A], 1]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[10] + 
+      (Subscript[OverBar[A], 0]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/(2*Sqrt[15]) - 
+      Sqrt[2/15]*Subscript[OverBar[A], -1]*Subscript[OverBar[B], 1/2]*
+       Subscript[OverBar[C], 1/2] - (Sqrt[3/5]*Subscript[OverBar[A], 0]*
+        Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], 3/2])/2 + 
+      (Subscript[OverBar[A], -1]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[10]}}
+check111 = {{3/2, 3/2, 3/2, 3/2, 1/2, 1/2, 1/2, 1/2}, 
+    {3/2, 1/2, -1/2, -3/2, 1/2, 1/2, -1/2, -1/2}, {1, 1, 1, 1, 1, 0, 1, 0}, 
+    {True, True, True, True, True, True, True, True}, 
+    {True, True, True, True, True, True, True, True}, 
+    {True, True, True, True, True, True, True, True}}
+tab111 = {{3/2, 3/2, 1, Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 1/2]*
+      Subscript[OverBar[C], 1/2]}, {3/2, 1/2, 1, 
+     (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[3] + 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[3] + 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[3]}, 
+    {3/2, -1/2, 1, (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[3] + 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[3] + 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[3]}, 
+    {3/2, -3/2, 1, Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -1/2]*
+      Subscript[OverBar[C], -1/2]}, {1/2, 1/2, 1, 
+     -(Sqrt[2/3]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2]) + (Subscript[OverBar[A], 1/2]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 1/2])/Sqrt[6] + 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[6]}, 
+    {1/2, 1/2, 0, -((Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+         Subscript[OverBar[C], 1/2])/Sqrt[2]) + 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[2]}, 
+    {1/2, -1/2, 1, -((Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+         Subscript[OverBar[C], -1/2])/Sqrt[6]) - 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[6] + 
+      Sqrt[2/3]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -1/2]*
+       Subscript[OverBar[C], 1/2]}, {1/2, -1/2, 0, 
+     -((Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+         Subscript[OverBar[C], -1/2])/Sqrt[2]) + 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[2]}}
+check113 = {{5/2, 5/2, 5/2, 5/2, 5/2, 5/2, 3/2, 3/2, 3/2, 3/2, 3/2, 3/2, 3/2, 
+     3/2, 1/2, 1/2}, {5/2, 3/2, 1/2, -1/2, -3/2, -5/2, 3/2, 3/2, 1/2, 1/2, 
+     -1/2, -1/2, -3/2, -3/2, 1/2, -1/2}, {1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 0, 
+    1, 0, 1, 1}, {True, True, True, True, True, True, True, True, True, True, 
+     True, True, True, True, True, True}, {True, True, True, True, True, 
+     True, True, True, True, True, True, True, True, True, True, True}, 
+    {True, True, True, True, True, True, True, True, True, True, True, True, 
+     True, True, True, True}}
+tab113 = {{5/2, 5/2, 1, Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 1/2]*
+      Subscript[OverBar[C], 3/2]}, {5/2, 3/2, 1, 
+     Sqrt[3/5]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 1/2]*
+       Subscript[OverBar[C], 1/2] + (Subscript[OverBar[A], 1/2]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 3/2])/Sqrt[5] + 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[5]}, 
+    {5/2, 1/2, 1, Sqrt[3/10]*Subscript[OverBar[A], 1/2]*
+       Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], -1/2] + 
+      Sqrt[3/10]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+       Subscript[OverBar[C], 1/2] + Sqrt[3/10]*Subscript[OverBar[A], -1/2]*
+       Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], 1/2] + 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[10]}, 
+    {5/2, -1/2, 1, (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[10] + 
+      Sqrt[3/10]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+       Subscript[OverBar[C], -1/2] + Sqrt[3/10]*Subscript[OverBar[A], -1/2]*
+       Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], -1/2] + 
+      Sqrt[3/10]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -1/2]*
+       Subscript[OverBar[C], 1/2]}, {5/2, -3/2, 1, 
+     (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[5] + 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[5] + 
+      Sqrt[3/5]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -1/2]*
+       Subscript[OverBar[C], -1/2]}, {5/2, -5/2, 1, 
+     Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -1/2]*
+      Subscript[OverBar[C], -3/2]}, {3/2, 3/2, 1, 
+     -(Sqrt[2/5]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2]) + Sqrt[3/10]*Subscript[OverBar[A], 1/2]*
+       Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 3/2] + 
+      Sqrt[3/10]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+       Subscript[OverBar[C], 3/2]}, {3/2, 3/2, 0, 
+     -((Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+         Subscript[OverBar[C], 3/2])/Sqrt[2]) + 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[2]}, 
+    {3/2, 1/2, 1, -2*Sqrt[2/15]*Subscript[OverBar[A], 1/2]*
+       Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], -1/2] + 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[30] + 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[30] + 
+      Sqrt[2/5]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -1/2]*
+       Subscript[OverBar[C], 3/2]}, {3/2, 1/2, 0, 
+     -((Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+         Subscript[OverBar[C], 1/2])/Sqrt[2]) + 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[2]}, 
+    {3/2, -1/2, 1, -(Sqrt[2/5]*Subscript[OverBar[A], 1/2]*
+        Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], -3/2]) - 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[30] - 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[30] + 
+      2*Sqrt[2/15]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -1/2]*
+       Subscript[OverBar[C], 1/2]}, {3/2, -1/2, 0, 
+     -((Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+         Subscript[OverBar[C], -1/2])/Sqrt[2]) + 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[2]}, 
+    {3/2, -3/2, 1, -(Sqrt[3/10]*Subscript[OverBar[A], 1/2]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], -3/2]) - 
+      Sqrt[3/10]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+       Subscript[OverBar[C], -3/2] + Sqrt[2/5]*Subscript[OverBar[A], -1/2]*
+       Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], -1/2]}, 
+    {3/2, -3/2, 0, -((Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+         Subscript[OverBar[C], -3/2])/Sqrt[2]) + 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[2]}, 
+    {1/2, 1/2, 1, (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[6] - 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[6] - 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[6] + 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[2]}, 
+    {1/2, -1/2, 1, (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[2] - 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[6] - 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[6] + 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[6]}}
+check133 = {{7/2, 7/2, 7/2, 7/2, 7/2, 7/2, 7/2, 7/2, 5/2, 5/2, 5/2, 5/2, 5/2, 
+     5/2, 5/2, 5/2, 5/2, 5/2, 5/2, 5/2, 3/2, 3/2, 3/2, 3/2, 3/2, 3/2, 3/2, 
+     3/2, 1/2, 1/2, 1/2, 1/2}, {7/2, 5/2, 3/2, 1/2, -1/2, -3/2, -5/2, -7/2, 
+     5/2, 5/2, 3/2, 3/2, 1/2, 1/2, -1/2, -1/2, -3/2, -3/2, -5/2, -5/2, 3/2, 
+     3/2, 1/2, 1/2, -1/2, -1/2, -3/2, -3/2, 1/2, 1/2, -1/2, -1/2}, {2, 2, 2, 
+    2, 2, 2, 2, 2, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 
+    1, 2, 1, 2, 1}, {True, True, True, True, True, True, True, True, True, 
+     True, True, True, True, True, True, True, True, True, True, True, True, 
+     True, True, True, True, True, True, True, True, True, True, True}, 
+    {True, True, True, True, True, True, True, True, True, True, True, True, 
+     True, True, True, True, True, True, True, True, True, True, True, True, 
+     True, True, True, True, True, True, True, True}, 
+    {True, True, True, True, True, True, True, True, True, True, True, True, 
+     True, True, True, True, True, True, True, True, True, True, True, True, 
+     True, True, True, True, True, True, True, True}}
+tab133 = {{7/2, 7/2, 2, Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 3/2]*
+      Subscript[OverBar[C], 3/2]}, {7/2, 5/2, 2, 
+     Sqrt[3/7]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 3/2]*
+       Subscript[OverBar[C], 1/2] + Sqrt[3/7]*Subscript[OverBar[A], 1/2]*
+       Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], 3/2] + 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[7]}, 
+    {7/2, 3/2, 2, (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[7] + 
+      Sqrt[3/7]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 1/2]*
+       Subscript[OverBar[C], 1/2] + (Subscript[OverBar[A], -1/2]*
+        Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], 1/2])/Sqrt[7] + 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[7] + 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[7]}, 
+    {7/2, 1/2, 2, (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[35] + 
+      (3*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[35] + 
+      Sqrt[3/35]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 3/2]*
+       Subscript[OverBar[C], -1/2] + (3*Subscript[OverBar[A], 1/2]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 1/2])/Sqrt[35] + 
+      (3*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[35] + 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[35] + 
+      Sqrt[3/35]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -1/2]*
+       Subscript[OverBar[C], 3/2]}, {7/2, -1/2, 2, 
+     Sqrt[3/35]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 1/2]*
+       Subscript[OverBar[C], -3/2] + (Subscript[OverBar[A], -1/2]*
+        Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], -3/2])/Sqrt[35] + 
+      (3*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[35] + 
+      (3*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[35] + 
+      Sqrt[3/35]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -3/2]*
+       Subscript[OverBar[C], 1/2] + (3*Subscript[OverBar[A], -1/2]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 1/2])/Sqrt[35] + 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[35]}, 
+    {7/2, -3/2, 2, (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[7] + 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[7] + 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[7] + 
+      Sqrt[3/7]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -1/2]*
+       Subscript[OverBar[C], -1/2] + (Subscript[OverBar[A], -1/2]*
+        Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], 1/2])/Sqrt[7]}, 
+    {7/2, -5/2, 2, (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[7] + 
+      Sqrt[3/7]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -1/2]*
+       Subscript[OverBar[C], -3/2] + Sqrt[3/7]*Subscript[OverBar[A], -1/2]*
+       Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], -1/2]}, 
+    {7/2, -7/2, 2, Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -3/2]*
+      Subscript[OverBar[C], -3/2]}, {5/2, 5/2, 2, 
+     (-2*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[7] + 
+      (3*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 3/2])/(2*Sqrt[7]) + 
+      (Sqrt[3/7]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], 3/2])/2}, {5/2, 5/2, 1, 
+     -1/2*(Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 3/2]) + (Sqrt[3]*Subscript[OverBar[A], -1/2]*
+        Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], 3/2])/2}, 
+    {5/2, 3/2, 2, (-4*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[35] - 
+      (Sqrt[3/35]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/2 - (Subscript[OverBar[A], -1/2]*
+        Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], 1/2])/(2*Sqrt[35]) + 
+      (3*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[35] + 
+      (3*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[35]}, 
+    {5/2, 3/2, 1, -1/2*(Sqrt[3/5]*Subscript[OverBar[A], 1/2]*
+        Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], 1/2]) + 
+      (3*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], 1/2])/(2*Sqrt[5]) - 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[5] + 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[5]}, 
+    {5/2, 1/2, 2, -(Sqrt[6/35]*Subscript[OverBar[A], 1/2]*
+        Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], -3/2]) - 
+      (Sqrt[15/14]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/2 - 
+      (Sqrt[5/14]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -1/2])/2 + Sqrt[3/70]*Subscript[OverBar[A], 
+        1/2]*Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 1/2] + 
+      Sqrt[3/70]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+       Subscript[OverBar[C], 1/2] + (3*Sqrt[3/70]*Subscript[OverBar[A], 1/2]*
+        Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], 3/2])/2 + 
+      (9*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 3/2])/(2*Sqrt[70])}, 
+    {5/2, 1/2, 1, -1/2*(Sqrt[3/10]*Subscript[OverBar[A], 1/2]*
+        Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], -1/2]) + 
+      (3*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -1/2])/(2*Sqrt[10]) - 
+      Sqrt[3/10]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+       Subscript[OverBar[C], 1/2] + Sqrt[3/10]*Subscript[OverBar[A], -1/2]*
+       Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], 1/2] - 
+      (Sqrt[3/10]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 3/2])/2 + (Subscript[OverBar[A], -1/2]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 3/2])/
+       (2*Sqrt[10])}, {5/2, -1/2, 2, 
+     (-9*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2])/(2*Sqrt[70]) - 
+      (3*Sqrt[3/70]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -3/2])/2 - Sqrt[3/70]*Subscript[OverBar[A], 
+        1/2]*Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], -1/2] - 
+      Sqrt[3/70]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+       Subscript[OverBar[C], -1/2] + (Sqrt[5/14]*Subscript[OverBar[A], 1/2]*
+        Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], 1/2])/2 + 
+      (Sqrt[15/14]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/2 + Sqrt[6/35]*Subscript[OverBar[A], 
+        -1/2]*Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], 3/2]}, 
+    {5/2, -1/2, 1, -1/2*(Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 
+          1/2]*Subscript[OverBar[C], -3/2])/Sqrt[10] + 
+      (Sqrt[3/10]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -3/2])/2 - Sqrt[3/10]*Subscript[OverBar[A], 
+        1/2]*Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], -1/2] + 
+      Sqrt[3/10]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+       Subscript[OverBar[C], -1/2] - (3*Subscript[OverBar[A], 1/2]*
+        Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], 1/2])/
+       (2*Sqrt[10]) + (Sqrt[3/10]*Subscript[OverBar[A], -1/2]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 1/2])/2}, 
+    {5/2, -3/2, 2, (-3*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[35] - 
+      (3*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[35] + 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], -1/2])/(2*Sqrt[35]) + 
+      (Sqrt[3/35]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -1/2])/2 + (4*Subscript[OverBar[A], -1/2]*
+        Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], 1/2])/Sqrt[35]}, 
+    {5/2, -3/2, 1, -((Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+         Subscript[OverBar[C], -3/2])/Sqrt[5]) + 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[5] - 
+      (3*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], -1/2])/(2*Sqrt[5]) + 
+      (Sqrt[3/5]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -1/2])/2}, {5/2, -5/2, 2, 
+     -1/2*(Sqrt[3/7]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], -3/2]) - (3*Subscript[OverBar[A], -1/2]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], -3/2])/
+       (2*Sqrt[7]) + (2*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 
+         -3/2]*Subscript[OverBar[C], -1/2])/Sqrt[7]}, 
+    {5/2, -5/2, 1, -1/2*(Sqrt[3]*Subscript[OverBar[A], 1/2]*
+        Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], -3/2]) + 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -3/2])/2}, {3/2, 3/2, 2, 
+     Sqrt[2/5]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 3/2]*
+       Subscript[OverBar[C], -1/2] - Sqrt[3/10]*Subscript[OverBar[A], 1/2]*
+       Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], 1/2] - 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[10] + 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[10] + 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[10]}, 
+    {3/2, 3/2, 1, (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[10] - 
+      Sqrt[3/10]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 3/2]*
+       Subscript[OverBar[C], 1/2] - Sqrt[3/10]*Subscript[OverBar[A], 1/2]*
+       Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 3/2] + 
+      Sqrt[3/10]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+       Subscript[OverBar[C], 3/2]}, {3/2, 1/2, 2, 
+     Sqrt[2/5]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 3/2]*
+       Subscript[OverBar[C], -3/2] - (Subscript[OverBar[A], 1/2]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 1/2])/Sqrt[10] - 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[10] + 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[10] + 
+      Sqrt[3/10]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -1/2]*
+       Subscript[OverBar[C], 3/2]}, {3/2, 1/2, 1, 
+     Sqrt[2/15]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 1/2]*
+       Subscript[OverBar[C], -1/2] - Sqrt[2/5]*Subscript[OverBar[A], -1/2]*
+       Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], -1/2] - 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[30] + 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[30] - 
+      Sqrt[3/10]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -3/2]*
+       Subscript[OverBar[C], 3/2] + (Subscript[OverBar[A], -1/2]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 3/2])/Sqrt[10]}, 
+    {3/2, -1/2, 2, Sqrt[3/10]*Subscript[OverBar[A], 1/2]*
+       Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], -3/2] + 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[10] - 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[10] - 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[10] + 
+      Sqrt[2/5]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -3/2]*
+       Subscript[OverBar[C], 3/2]}, {3/2, -1/2, 1, 
+     (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[10] - 
+      Sqrt[3/10]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 3/2]*
+       Subscript[OverBar[C], -3/2] + (Subscript[OverBar[A], 1/2]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], -1/2])/Sqrt[30] - 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[30] - 
+      Sqrt[2/5]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -3/2]*
+       Subscript[OverBar[C], 1/2] + Sqrt[2/15]*Subscript[OverBar[A], -1/2]*
+       Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 1/2]}, 
+    {3/2, -3/2, 2, (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[10] + 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[10] - 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[10] - 
+      Sqrt[3/10]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -1/2]*
+       Subscript[OverBar[C], -1/2] + Sqrt[2/5]*Subscript[OverBar[A], -1/2]*
+       Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], 1/2]}, 
+    {3/2, -3/2, 1, Sqrt[3/10]*Subscript[OverBar[A], 1/2]*
+       Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], -3/2] - 
+      Sqrt[3/10]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+       Subscript[OverBar[C], -3/2] - Sqrt[3/10]*Subscript[OverBar[A], 1/2]*
+       Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], -1/2] + 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[10]}, 
+    {1/2, 1/2, 2, -(Sqrt[2/5]*Subscript[OverBar[A], 1/2]*
+        Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], -3/2]) + 
+      (3*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/(2*Sqrt[10]) + 
+      (Sqrt[3/10]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -1/2])/2 - (Subscript[OverBar[A], 1/2]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 1/2])/Sqrt[10] - 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[10] + 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 3/2])/(2*Sqrt[10]) + 
+      (Sqrt[3/10]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 3/2])/2}, {1/2, 1/2, 1, 
+     -1/2*(Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 1/2]*
+         Subscript[OverBar[C], -1/2])/Sqrt[6] + 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -1/2])/(2*Sqrt[2]) + 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[6] - 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[6] - 
+      (Sqrt[3/2]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 3/2])/2 + (Subscript[OverBar[A], -1/2]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 3/2])/(2*Sqrt[2])}, 
+    {1/2, -1/2, 2, -1/2*(Sqrt[3/10]*Subscript[OverBar[A], 1/2]*
+        Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], -3/2]) - 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -3/2])/(2*Sqrt[10]) + 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[10] + 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[10] - 
+      (Sqrt[3/10]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 1/2])/2 - (3*Subscript[OverBar[A], -1/2]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 1/2])/
+       (2*Sqrt[10]) + Sqrt[2/5]*Subscript[OverBar[A], -1/2]*
+       Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], 3/2]}, 
+    {1/2, -1/2, 1, -1/2*(Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 
+          1/2]*Subscript[OverBar[C], -3/2])/Sqrt[2] + 
+      (Sqrt[3/2]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -3/2])/2 + (Subscript[OverBar[A], 1/2]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], -1/2])/Sqrt[6] - 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[6] - 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 1/2])/(2*Sqrt[2]) + 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/(2*Sqrt[6])}}
+check333 = {{9/2, 9/2, 9/2, 9/2, 9/2, 9/2, 9/2, 9/2, 9/2, 9/2, 7/2, 7/2, 7/2, 
+     7/2, 7/2, 7/2, 7/2, 7/2, 7/2, 7/2, 7/2, 7/2, 7/2, 7/2, 7/2, 7/2, 5/2, 
+     5/2, 5/2, 5/2, 5/2, 5/2, 5/2, 5/2, 5/2, 5/2, 5/2, 5/2, 5/2, 5/2, 5/2, 
+     5/2, 5/2, 5/2, 3/2, 3/2, 3/2, 3/2, 3/2, 3/2, 3/2, 3/2, 3/2, 3/2, 3/2, 
+     3/2, 3/2, 3/2, 3/2, 3/2, 1/2, 1/2, 1/2, 1/2}, 
+    {9/2, 7/2, 5/2, 3/2, 1/2, -1/2, -3/2, -5/2, -7/2, -9/2, 7/2, 7/2, 5/2, 
+     5/2, 3/2, 3/2, 1/2, 1/2, -1/2, -1/2, -3/2, -3/2, -5/2, -5/2, -7/2, -7/2, 
+     5/2, 5/2, 5/2, 3/2, 3/2, 3/2, 1/2, 1/2, 1/2, -1/2, -1/2, -1/2, -3/2, 
+     -3/2, -3/2, -5/2, -5/2, -5/2, 3/2, 3/2, 3/2, 3/2, 1/2, 1/2, 1/2, 1/2, 
+     -1/2, -1/2, -1/2, -1/2, -3/2, -3/2, -3/2, -3/2, 1/2, 1/2, -1/2, -1/2}, 
+    {3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 2, 3, 2, 3, 2, 3, 2, 3, 2, 3, 2, 3, 2, 
+    3, 2, 3, 2, 1, 3, 2, 1, 3, 2, 1, 3, 2, 1, 3, 2, 1, 3, 2, 1, 3, 2, 1, 0, 
+    3, 2, 1, 0, 3, 2, 1, 0, 3, 2, 1, 0, 2, 1, 2, 1}, 
+    {True, True, True, True, True, True, True, True, True, True, True, True, 
+     True, True, True, True, True, True, True, True, True, True, True, True, 
+     True, True, True, True, True, True, True, True, True, True, True, True, 
+     True, True, True, True, True, True, True, True, True, True, True, True, 
+     True, True, True, True, True, True, True, True, True, True, True, True, 
+     True, True, True, True}, {True, True, True, True, True, True, True, 
+     True, True, True, True, True, True, True, True, True, True, True, True, 
+     True, True, True, True, True, True, True, True, True, True, True, True, 
+     True, True, True, True, True, True, True, True, True, True, True, True, 
+     True, True, True, True, True, True, True, True, True, True, True, True, 
+     True, True, True, True, True, True, True, True, True}, 
+    {True, True, True, True, True, True, True, True, True, True, True, True, 
+     True, True, True, True, True, True, True, True, True, True, True, True, 
+     True, True, True, True, True, True, True, True, True, True, True, True, 
+     True, True, True, True, True, True, True, True, True, True, True, True, 
+     True, True, True, True, True, True, True, True, True, True, True, True, 
+     True, True, True, True}}
+tab333 = {{9/2, 9/2, 3, Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], 3/2]*
+      Subscript[OverBar[C], 3/2]}, {9/2, 7/2, 3, 
+     (Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[3] + 
+      (Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[3] + 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[3]}, 
+    {9/2, 5/2, 3, (Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -1/2])/(2*Sqrt[3]) + 
+      (Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/2 + (Subscript[OverBar[A], 1/2]*
+        Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], 1/2])/2 + 
+      (Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 3/2])/(2*Sqrt[3]) + 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 3/2])/2 + (Subscript[OverBar[A], -1/2]*
+        Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], 3/2])/(2*Sqrt[3])}, 
+    {9/2, 3/2, 3, (Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -3/2])/(2*Sqrt[21]) + 
+      (Sqrt[3/7]*Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/2 + 
+      (Sqrt[3/7]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -1/2])/2 + 
+      (Sqrt[3/7]*Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/2 + (3*Subscript[OverBar[A], 1/2]*
+        Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], 1/2])/(2*Sqrt[7]) + 
+      (Sqrt[3/7]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], 1/2])/2 + (Subscript[OverBar[A], 3/2]*
+        Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], 3/2])/
+       (2*Sqrt[21]) + (Sqrt[3/7]*Subscript[OverBar[A], 1/2]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 3/2])/2 + 
+      (Sqrt[3/7]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 3/2])/2 + (Subscript[OverBar[A], -3/2]*
+        Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], 3/2])/(2*Sqrt[21])}, 
+    {9/2, 1/2, 3, (Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[42] + 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[42] + 
+      (Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[14] + 
+      Sqrt[3/14]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 1/2]*
+       Subscript[OverBar[C], -1/2] + (Subscript[OverBar[A], -1/2]*
+        Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], -1/2])/Sqrt[14] + 
+      (Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[42] + 
+      Sqrt[3/14]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+       Subscript[OverBar[C], 1/2] + Sqrt[3/14]*Subscript[OverBar[A], -1/2]*
+       Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], 1/2] + 
+      (Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[42] + 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[42] + 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[14] + 
+      (Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[42]}, 
+    {9/2, -1/2, 3, (Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[42] + 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[14] + 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[42] + 
+      (Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[42] + 
+      Sqrt[3/14]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+       Subscript[OverBar[C], -1/2] + Sqrt[3/14]*Subscript[OverBar[A], -1/2]*
+       Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], -1/2] + 
+      (Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[42] + 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[14] + 
+      Sqrt[3/14]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -1/2]*
+       Subscript[OverBar[C], 1/2] + (Subscript[OverBar[A], -3/2]*
+        Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], 1/2])/Sqrt[14] + 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[42] + 
+      (Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[42]}, 
+    {9/2, -3/2, 3, (Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], -3/2])/(2*Sqrt[21]) + 
+      (Sqrt[3/7]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -3/2])/2 + 
+      (Sqrt[3/7]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2])/2 + (Subscript[OverBar[A], -3/2]*
+        Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], -3/2])/
+       (2*Sqrt[21]) + (Sqrt[3/7]*Subscript[OverBar[A], 1/2]*
+        Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], -1/2])/2 + 
+      (3*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -1/2])/(2*Sqrt[7]) + 
+      (Sqrt[3/7]*Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/2 + 
+      (Sqrt[3/7]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 1/2])/2 + 
+      (Sqrt[3/7]*Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/2 + (Subscript[OverBar[A], -3/2]*
+        Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], 3/2])/
+       (2*Sqrt[21])}, {9/2, -5/2, 3, 
+     (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], -3/2])/(2*Sqrt[3]) + 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -3/2])/2 + (Subscript[OverBar[A], -3/2]*
+        Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], -3/2])/(2*Sqrt[3]) + 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], -1/2])/2 + (Subscript[OverBar[A], -3/2]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], -1/2])/2 + 
+      (Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 1/2])/(2*Sqrt[3])}, 
+    {9/2, -7/2, 3, (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[3] + 
+      (Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[3] + 
+      (Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[3]}, 
+    {9/2, -9/2, 3, Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], -3/2]*
+      Subscript[OverBar[C], -3/2]}, {7/2, 7/2, 3, 
+     -(Sqrt[2/3]*Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], 1/2]) + (Subscript[OverBar[A], 3/2]*
+        Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], 3/2])/Sqrt[6] + 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[6]}, 
+    {7/2, 7/2, 2, -((Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], 1/2]*
+         Subscript[OverBar[C], 3/2])/Sqrt[2]) + 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[2]}, 
+    {7/2, 5/2, 3, -2*Sqrt[2/21]*Subscript[OverBar[A], 3/2]*
+       Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], -1/2] - 
+      (Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[14] - 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[14] + 
+      Sqrt[2/21]*Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -1/2]*
+       Subscript[OverBar[C], 3/2] + Sqrt[2/7]*Subscript[OverBar[A], 1/2]*
+       Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], 3/2] + 
+      Sqrt[2/21]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 3/2]*
+       Subscript[OverBar[C], 3/2]}, {7/2, 5/2, 2, 
+     -(Sqrt[3/14]*Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2]) + Sqrt[3/14]*Subscript[OverBar[A], 1/2]*
+       Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], 1/2] - 
+      Sqrt[2/7]*Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -1/2]*
+       Subscript[OverBar[C], 3/2] + Sqrt[2/7]*Subscript[OverBar[A], -1/2]*
+       Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], 3/2]}, 
+    {7/2, 3/2, 3, -(Sqrt[2/21]*Subscript[OverBar[A], 3/2]*
+        Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], -3/2]) - 
+      Sqrt[3/14]*Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], 1/2]*
+       Subscript[OverBar[C], -1/2] - Sqrt[3/14]*Subscript[OverBar[A], 1/2]*
+       Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], -1/2] + 
+      (Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[42] + 
+      Sqrt[3/14]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+       Subscript[OverBar[C], 3/2] + Sqrt[3/14]*Subscript[OverBar[A], -1/2]*
+       Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], 3/2] + 
+      (Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[42]}, 
+    {7/2, 3/2, 2, -((Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], 1/2]*
+         Subscript[OverBar[C], -1/2])/Sqrt[14]) + 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[14] - 
+      Sqrt[2/7]*Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -1/2]*
+       Subscript[OverBar[C], 1/2] + Sqrt[2/7]*Subscript[OverBar[A], -1/2]*
+       Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], 1/2] - 
+      (Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[14] - 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[14] + 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[14] + 
+      (Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[14]}, 
+    {7/2, 1/2, 3, -(Sqrt[5/42]*Subscript[OverBar[A], 3/2]*
+        Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], -3/2]) - 
+      Sqrt[5/42]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 3/2]*
+       Subscript[OverBar[C], -3/2] - Sqrt[2/35]*Subscript[OverBar[A], 3/2]*
+       Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], -1/2] - 
+      Sqrt[6/35]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 1/2]*
+       Subscript[OverBar[C], -1/2] - Sqrt[2/35]*Subscript[OverBar[A], -1/2]*
+       Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], -1/2] + 
+      (Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[210] + 
+      Sqrt[3/70]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+       Subscript[OverBar[C], 1/2] + Sqrt[3/70]*Subscript[OverBar[A], -1/2]*
+       Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], 1/2] + 
+      (Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[210] + 2*Sqrt[2/105]*
+       Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -3/2]*
+       Subscript[OverBar[C], 3/2] + 2*Sqrt[2/35]*Subscript[OverBar[A], -1/2]*
+       Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 3/2] + 
+      2*Sqrt[2/105]*Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 1/2]*
+       Subscript[OverBar[C], 3/2]}, {7/2, 1/2, 2, 
+     -((Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], 1/2]*
+         Subscript[OverBar[C], -3/2])/Sqrt[70]) + 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[70] - 
+      Sqrt[6/35]*Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -1/2]*
+       Subscript[OverBar[C], -1/2] + Sqrt[6/35]*Subscript[OverBar[A], -1/2]*
+       Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], -1/2] - 
+      (3*Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[70] - 
+      (3*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[70] + 
+      (3*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[70] + 
+      (3*Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[70] - 
+      Sqrt[2/35]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -3/2]*
+       Subscript[OverBar[C], 3/2] + Sqrt[2/35]*Subscript[OverBar[A], -3/2]*
+       Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], 3/2]}, 
+    {7/2, -1/2, 3, -2*Sqrt[2/105]*Subscript[OverBar[A], 3/2]*
+       Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], -3/2] - 
+      2*Sqrt[2/35]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 1/2]*
+       Subscript[OverBar[C], -3/2] - 2*Sqrt[2/105]*Subscript[OverBar[A], 
+        -1/2]*Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], -3/2] - 
+      (Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[210] - 
+      Sqrt[3/70]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+       Subscript[OverBar[C], -1/2] - Sqrt[3/70]*Subscript[OverBar[A], -1/2]*
+       Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], -1/2] - 
+      (Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[210] + 
+      Sqrt[2/35]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -3/2]*
+       Subscript[OverBar[C], 1/2] + Sqrt[6/35]*Subscript[OverBar[A], -1/2]*
+       Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 1/2] + 
+      Sqrt[2/35]*Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 1/2]*
+       Subscript[OverBar[C], 1/2] + Sqrt[5/42]*Subscript[OverBar[A], -1/2]*
+       Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], 3/2] + 
+      Sqrt[5/42]*Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], -1/2]*
+       Subscript[OverBar[C], 3/2]}, {7/2, -1/2, 2, 
+     -(Sqrt[2/35]*Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -3/2]) + Sqrt[2/35]*Subscript[OverBar[A], -1/2]*
+       Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], -3/2] - 
+      (3*Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[70] - 
+      (3*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[70] + 
+      (3*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[70] + 
+      (3*Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[70] - 
+      Sqrt[6/35]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -3/2]*
+       Subscript[OverBar[C], 1/2] + Sqrt[6/35]*Subscript[OverBar[A], -3/2]*
+       Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], 1/2] - 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[70] + 
+      (Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[70]}, 
+    {7/2, -3/2, 3, -((Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -3/2]*
+         Subscript[OverBar[C], -3/2])/Sqrt[42]) - 
+      Sqrt[3/14]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+       Subscript[OverBar[C], -3/2] - Sqrt[3/14]*Subscript[OverBar[A], -1/2]*
+       Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], -3/2] - 
+      (Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[42] + 
+      Sqrt[3/14]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -3/2]*
+       Subscript[OverBar[C], 1/2] + Sqrt[3/14]*Subscript[OverBar[A], -3/2]*
+       Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 1/2] + 
+      Sqrt[2/21]*Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], -3/2]*
+       Subscript[OverBar[C], 3/2]}, {7/2, -3/2, 2, 
+     -((Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -3/2]*
+         Subscript[OverBar[C], -3/2])/Sqrt[14]) - 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[14] + 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[14] + 
+      (Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[14] - 
+      Sqrt[2/7]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -3/2]*
+       Subscript[OverBar[C], -1/2] + Sqrt[2/7]*Subscript[OverBar[A], -3/2]*
+       Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], -1/2] - 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[14] + 
+      (Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[14]}, 
+    {7/2, -5/2, 3, -(Sqrt[2/21]*Subscript[OverBar[A], 1/2]*
+        Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], -3/2]) - 
+      Sqrt[2/7]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -1/2]*
+       Subscript[OverBar[C], -3/2] - Sqrt[2/21]*Subscript[OverBar[A], -3/2]*
+       Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], -3/2] + 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[14] + 
+      (Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[14] + 
+      2*Sqrt[2/21]*Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], -3/2]*
+       Subscript[OverBar[C], 1/2]}, {7/2, -5/2, 2, 
+     -(Sqrt[2/7]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], -3/2]) + Sqrt[2/7]*Subscript[OverBar[A], -3/2]*
+       Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], -3/2] - 
+      Sqrt[3/14]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -3/2]*
+       Subscript[OverBar[C], -1/2] + Sqrt[3/14]*Subscript[OverBar[A], -3/2]*
+       Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], -1/2]}, 
+    {7/2, -7/2, 3, -((Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -3/2]*
+         Subscript[OverBar[C], -3/2])/Sqrt[6]) - 
+      (Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[6] + 
+      Sqrt[2/3]*Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], -3/2]*
+       Subscript[OverBar[C], -1/2]}, {7/2, -7/2, 2, 
+     -((Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -3/2]*
+         Subscript[OverBar[C], -3/2])/Sqrt[2]) + 
+      (Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[2]}, 
+    {5/2, 5/2, 3, (Sqrt[15/7]*Subscript[OverBar[A], 3/2]*
+        Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], -1/2])/2 - 
+      (Sqrt[5/7]*Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/2 - (Sqrt[5/7]*Subscript[OverBar[A], 1/2]*
+        Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], 1/2])/2 + 
+      (Sqrt[3/35]*Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 3/2])/2 + (3*Subscript[OverBar[A], 1/2]*
+        Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], 3/2])/(2*Sqrt[35]) + 
+      (Sqrt[3/35]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], 3/2])/2}, {5/2, 5/2, 2, 
+     Sqrt[2/7]*Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], 1/2]*
+       Subscript[OverBar[C], 1/2] - Sqrt[2/7]*Subscript[OverBar[A], 1/2]*
+       Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], 1/2] - 
+      Sqrt[3/14]*Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -1/2]*
+       Subscript[OverBar[C], 3/2] + Sqrt[3/14]*Subscript[OverBar[A], -1/2]*
+       Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], 3/2]}, 
+    {5/2, 5/2, 1, Sqrt[3/10]*Subscript[OverBar[A], 3/2]*
+       Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 3/2] - 
+      Sqrt[2/5]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 1/2]*
+       Subscript[OverBar[C], 3/2] + Sqrt[3/10]*Subscript[OverBar[A], -1/2]*
+       Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], 3/2]}, 
+    {5/2, 3/2, 3, (3*Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -3/2])/(2*Sqrt[7]) + 
+      (Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/(2*Sqrt[7]) + 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -1/2])/(2*Sqrt[7]) - 
+      (Sqrt[7]*Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/10 - (Sqrt[21]*Subscript[OverBar[A], 1/2]*
+        Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], 1/2])/10 - 
+      (Sqrt[7]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], 1/2])/10 + (3*Subscript[OverBar[A], 3/2]*
+        Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], 3/2])/
+       (10*Sqrt[7]) + (9*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 
+         -1/2]*Subscript[OverBar[C], 3/2])/(10*Sqrt[7]) + 
+      (9*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 3/2])/(10*Sqrt[7]) + 
+      (3*Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], 3/2])/(10*Sqrt[7])}, 
+    {5/2, 3/2, 2, 2*Sqrt[2/35]*Subscript[OverBar[A], 3/2]*
+       Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], -1/2] - 
+      2*Sqrt[2/35]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 3/2]*
+       Subscript[OverBar[C], -1/2] + (Subscript[OverBar[A], 3/2]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 1/2])/Sqrt[70] - 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[70] - 
+      (3*Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[70] - 
+      (3*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[70] + 
+      (3*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[70] + 
+      (3*Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[70]}, 
+    {5/2, 3/2, 1, (3*Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/(5*Sqrt[2]) - 
+      (Sqrt[6]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/5 + (3*Subscript[OverBar[A], -1/2]*
+        Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], 1/2])/(5*Sqrt[2]) + 
+      (3*Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 3/2])/(5*Sqrt[2]) - 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 3/2])/(5*Sqrt[2]) - 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 3/2])/(5*Sqrt[2]) + 
+      (3*Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], 3/2])/(5*Sqrt[2])}, 
+    {5/2, 1/2, 3, Sqrt[3/14]*Subscript[OverBar[A], 3/2]*
+       Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], -3/2] + 
+      Sqrt[3/14]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 3/2]*
+       Subscript[OverBar[C], -3/2] - (Subscript[OverBar[A], 3/2]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], -1/2])/
+       (5*Sqrt[14]) - (Sqrt[3/14]*Subscript[OverBar[A], 1/2]*
+        Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], -1/2])/5 - 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -1/2])/(5*Sqrt[14]) - 
+      (Sqrt[3/14]*Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 1/2])/5 - 
+      (3*Sqrt[3/14]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/5 - 
+      (3*Sqrt[3/14]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/5 - 
+      (Sqrt[3/14]*Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], 1/2])/5 + 
+      (3*Sqrt[3/14]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 3/2])/5 + (9*Subscript[OverBar[A], -1/2]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 3/2])/
+       (5*Sqrt[14]) + (3*Sqrt[3/14]*Subscript[OverBar[A], -3/2]*
+        Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], 3/2])/5}, 
+    {5/2, 1/2, 2, Sqrt[3/35]*Subscript[OverBar[A], 3/2]*
+       Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], -3/2] - 
+      Sqrt[3/35]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 3/2]*
+       Subscript[OverBar[C], -3/2] + (Sqrt[5/7]*Subscript[OverBar[A], 3/2]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], -1/2])/2 - 
+      (Sqrt[5/7]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -1/2])/2 - 
+      (Sqrt[3/35]*Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 1/2])/2 - 
+      (Sqrt[3/35]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/2 + 
+      (Sqrt[3/35]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/2 + 
+      (Sqrt[3/35]*Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], 1/2])/2 - 
+      (3*Sqrt[3/35]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 3/2])/2 + 
+      (3*Sqrt[3/35]*Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 3/2])/2}, {5/2, 1/2, 1, 
+     (3*Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -1/2])/10 - (Sqrt[3]*Subscript[OverBar[A], 1/2]*
+        Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], -1/2])/5 + 
+      (3*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -1/2])/10 + 
+      (3*Sqrt[3]*Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 1/2])/10 - (Sqrt[3]*Subscript[OverBar[A], 1/2]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 1/2])/10 - 
+      (Sqrt[3]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/10 + 
+      (3*Sqrt[3]*Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], 1/2])/10 + (Sqrt[3]*Subscript[OverBar[A], 1/2]*
+        Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], 3/2])/10 - 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 3/2])/5 + (Sqrt[3]*Subscript[OverBar[A], -3/2]*
+        Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], 3/2])/10}, 
+    {5/2, -1/2, 3, (3*Sqrt[3/14]*Subscript[OverBar[A], 3/2]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], -3/2])/5 + 
+      (9*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2])/(5*Sqrt[14]) + 
+      (3*Sqrt[3/14]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -3/2])/5 - 
+      (Sqrt[3/14]*Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], -1/2])/5 - 
+      (3*Sqrt[3/14]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -1/2])/5 - 
+      (3*Sqrt[3/14]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/5 - 
+      (Sqrt[3/14]*Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -1/2])/5 - (Subscript[OverBar[A], 1/2]*
+        Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], 1/2])/
+       (5*Sqrt[14]) - (Sqrt[3/14]*Subscript[OverBar[A], -1/2]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 1/2])/5 - 
+      (Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/(5*Sqrt[14]) + 
+      Sqrt[3/14]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -3/2]*
+       Subscript[OverBar[C], 3/2] + Sqrt[3/14]*Subscript[OverBar[A], -3/2]*
+       Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 3/2]}, 
+    {5/2, -1/2, 2, (3*Sqrt[3/35]*Subscript[OverBar[A], 3/2]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], -3/2])/2 - 
+      (3*Sqrt[3/35]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -3/2])/2 + 
+      (Sqrt[3/35]*Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], -1/2])/2 + 
+      (Sqrt[3/35]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -1/2])/2 - 
+      (Sqrt[3/35]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/2 - 
+      (Sqrt[3/35]*Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -1/2])/2 - 
+      (Sqrt[5/7]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 1/2])/2 + 
+      (Sqrt[5/7]*Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/2 - Sqrt[3/35]*Subscript[OverBar[A], 
+        -1/2]*Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], 3/2] + 
+      Sqrt[3/35]*Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], -1/2]*
+       Subscript[OverBar[C], 3/2]}, {5/2, -1/2, 1, 
+     (Sqrt[3]*Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -3/2])/10 - (Subscript[OverBar[A], 1/2]*
+        Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], -3/2])/5 + 
+      (Sqrt[3]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -3/2])/10 + 
+      (3*Sqrt[3]*Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], -1/2])/10 - (Sqrt[3]*Subscript[OverBar[A], 1/2]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], -1/2])/10 - 
+      (Sqrt[3]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/10 + 
+      (3*Sqrt[3]*Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -1/2])/10 + (3*Subscript[OverBar[A], 1/2]*
+        Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], 1/2])/10 - 
+      (Sqrt[3]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/5 + (3*Subscript[OverBar[A], -3/2]*
+        Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], 1/2])/10}, 
+    {5/2, -3/2, 3, (3*Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], -3/2])/(10*Sqrt[7]) + 
+      (9*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -3/2])/(10*Sqrt[7]) + 
+      (9*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2])/(10*Sqrt[7]) + 
+      (3*Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -3/2])/(10*Sqrt[7]) - 
+      (Sqrt[7]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], -1/2])/10 - 
+      (Sqrt[21]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -1/2])/10 - 
+      (Sqrt[7]*Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/10 + (Subscript[OverBar[A], -1/2]*
+        Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], 1/2])/(2*Sqrt[7]) + 
+      (Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/(2*Sqrt[7]) + 
+      (3*Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 3/2])/(2*Sqrt[7])}, 
+    {5/2, -3/2, 2, (3*Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[70] + 
+      (3*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[70] - 
+      (3*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[70] - 
+      (3*Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[70] - 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[70] + 
+      (Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[70] - 
+      2*Sqrt[2/35]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -3/2]*
+       Subscript[OverBar[C], 1/2] + 2*Sqrt[2/35]*Subscript[OverBar[A], -3/2]*
+       Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 1/2]}, 
+    {5/2, -3/2, 1, (3*Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], -3/2])/(5*Sqrt[2]) - 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -3/2])/(5*Sqrt[2]) - 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2])/(5*Sqrt[2]) + 
+      (3*Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -3/2])/(5*Sqrt[2]) + 
+      (3*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], -1/2])/(5*Sqrt[2]) - 
+      (Sqrt[6]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -1/2])/5 + (3*Subscript[OverBar[A], -3/2]*
+        Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], -1/2])/(5*Sqrt[2])}, 
+    {5/2, -5/2, 3, (Sqrt[3/35]*Subscript[OverBar[A], 1/2]*
+        Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], -3/2])/2 + 
+      (3*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -3/2])/(2*Sqrt[35]) + 
+      (Sqrt[3/35]*Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2])/2 - 
+      (Sqrt[5/7]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], -1/2])/2 - 
+      (Sqrt[5/7]*Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -1/2])/2 + 
+      (Sqrt[15/7]*Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 1/2])/2}, {5/2, -5/2, 2, 
+     Sqrt[3/14]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -3/2]*
+       Subscript[OverBar[C], -3/2] - Sqrt[3/14]*Subscript[OverBar[A], -3/2]*
+       Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], -3/2] - 
+      Sqrt[2/7]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -3/2]*
+       Subscript[OverBar[C], -1/2] + Sqrt[2/7]*Subscript[OverBar[A], -3/2]*
+       Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], -1/2]}, 
+    {5/2, -5/2, 1, Sqrt[3/10]*Subscript[OverBar[A], 1/2]*
+       Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], -3/2] - 
+      Sqrt[2/5]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -1/2]*
+       Subscript[OverBar[C], -3/2] + Sqrt[3/10]*Subscript[OverBar[A], -3/2]*
+       Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], -3/2]}, 
+    {3/2, 3/2, 3, (-2*Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[7] + 
+      (Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[7] + 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[7] - 
+      (2*Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/(5*Sqrt[7]) - 
+      (2*Sqrt[3/7]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/5 - (2*Subscript[OverBar[A], -1/2]*
+        Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], 1/2])/(5*Sqrt[7]) + 
+      (Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 3/2])/(10*Sqrt[7]) + 
+      (3*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 3/2])/(10*Sqrt[7]) + 
+      (3*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 3/2])/(10*Sqrt[7]) + 
+      (Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], 3/2])/(10*Sqrt[7])}, 
+    {3/2, 3/2, 2, -((Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], 1/2]*
+         Subscript[OverBar[C], -1/2])/Sqrt[5]) + 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[5] + 
+      (Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[5] - 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[5] - 
+      (Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 3/2])/(2*Sqrt[5]) - 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 3/2])/(2*Sqrt[5]) + 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 3/2])/(2*Sqrt[5]) + 
+      (Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], 3/2])/(2*Sqrt[5])}, 
+    {3/2, 3/2, 1, -1/5*(Sqrt[3]*Subscript[OverBar[A], 3/2]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 1/2]) + 
+      (2*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/5 - (Sqrt[3]*Subscript[OverBar[A], -1/2]*
+        Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], 1/2])/5 + 
+      (3*Sqrt[3]*Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 3/2])/10 - (Sqrt[3]*Subscript[OverBar[A], 1/2]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 3/2])/10 - 
+      (Sqrt[3]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 3/2])/10 + 
+      (3*Sqrt[3]*Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], 3/2])/10}, {3/2, 3/2, 0, 
+     -1/2*(Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 3/2]) + (Subscript[OverBar[A], 1/2]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 3/2])/2 - 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 3/2])/2 + (Subscript[OverBar[A], -3/2]*
+        Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], 3/2])/2}, 
+    {3/2, 1/2, 3, -((Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], 1/2]*
+         Subscript[OverBar[C], -3/2])/Sqrt[7]) - 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[7] + 
+      (2*Sqrt[3/7]*Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -1/2])/5 + (6*Subscript[OverBar[A], 1/2]*
+        Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], -1/2])/(5*Sqrt[7]) + 
+      (2*Sqrt[3/7]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -1/2])/5 - (3*Subscript[OverBar[A], 3/2]*
+        Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], 1/2])/
+       (10*Sqrt[7]) - (9*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 
+         -1/2]*Subscript[OverBar[C], 1/2])/(10*Sqrt[7]) - 
+      (9*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/(10*Sqrt[7]) - 
+      (3*Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], 1/2])/(10*Sqrt[7]) + 
+      (2*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 3/2])/(5*Sqrt[7]) + 
+      (2*Sqrt[3/7]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 3/2])/5 + (2*Subscript[OverBar[A], -3/2]*
+        Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], 3/2])/(5*Sqrt[7])}, 
+    {3/2, 1/2, 2, -((Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], 1/2]*
+         Subscript[OverBar[C], -3/2])/Sqrt[5]) + 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[5] + 
+      (Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 1/2])/(2*Sqrt[5]) + 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/(2*Sqrt[5]) - 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/(2*Sqrt[5]) - 
+      (Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], 1/2])/(2*Sqrt[5]) - 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[5] + 
+      (Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[5]}, 
+    {3/2, 1/2, 1, (-2*Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -1/2])/5 + (4*Subscript[OverBar[A], 1/2]*
+        Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], -1/2])/(5*Sqrt[3]) - 
+      (2*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -1/2])/5 + (Sqrt[3]*Subscript[OverBar[A], 3/2]*
+        Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], 1/2])/10 - 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/(10*Sqrt[3]) - 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/(10*Sqrt[3]) + 
+      (Sqrt[3]*Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], 1/2])/10 + (Sqrt[3]*Subscript[OverBar[A], 1/2]*
+        Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], 3/2])/5 - 
+      (2*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 3/2])/5 + (Sqrt[3]*Subscript[OverBar[A], -3/2]*
+        Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], 3/2])/5}, 
+    {3/2, 1/2, 0, -1/2*(Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], 
+         -3/2]*Subscript[OverBar[C], 1/2]) + 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/2 - (Subscript[OverBar[A], -1/2]*
+        Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], 1/2])/2 + 
+      (Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], 1/2])/2}, {3/2, -1/2, 3, 
+     (-2*Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -3/2])/(5*Sqrt[7]) - 
+      (2*Sqrt[3/7]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2])/5 - (2*Subscript[OverBar[A], -1/2]*
+        Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], -3/2])/(5*Sqrt[7]) + 
+      (3*Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], -1/2])/(10*Sqrt[7]) + 
+      (9*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -1/2])/(10*Sqrt[7]) + 
+      (9*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/(10*Sqrt[7]) + 
+      (3*Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -1/2])/(10*Sqrt[7]) - 
+      (2*Sqrt[3/7]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 1/2])/5 - (6*Subscript[OverBar[A], -1/2]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 1/2])/(5*Sqrt[7]) - 
+      (2*Sqrt[3/7]*Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/5 + (Subscript[OverBar[A], -1/2]*
+        Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], 3/2])/Sqrt[7] + 
+      (Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[7]}, 
+    {3/2, -1/2, 2, -((Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -1/2]*
+         Subscript[OverBar[C], -3/2])/Sqrt[5]) + 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[5] + 
+      (Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], -1/2])/(2*Sqrt[5]) + 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -1/2])/(2*Sqrt[5]) - 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/(2*Sqrt[5]) - 
+      (Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -1/2])/(2*Sqrt[5]) - 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[5] + 
+      (Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[5]}, 
+    {3/2, -1/2, 1, -1/5*(Sqrt[3]*Subscript[OverBar[A], 3/2]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], -3/2]) + 
+      (2*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2])/5 - (Sqrt[3]*Subscript[OverBar[A], -1/2]*
+        Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], -3/2])/5 - 
+      (Sqrt[3]*Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], -1/2])/10 + (Subscript[OverBar[A], 1/2]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], -1/2])/
+       (10*Sqrt[3]) + (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/(10*Sqrt[3]) - 
+      (Sqrt[3]*Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -1/2])/10 + (2*Subscript[OverBar[A], 1/2]*
+        Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], 1/2])/5 - 
+      (4*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/(5*Sqrt[3]) + 
+      (2*Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/5}, {3/2, -1/2, 0, 
+     -1/2*(Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], -1/2]) + (Subscript[OverBar[A], 1/2]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], -1/2])/2 - 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/2 + (Subscript[OverBar[A], -3/2]*
+        Subscript[OverBar[B], 3/2]*Subscript[OverBar[C], -1/2])/2}, 
+    {3/2, -3/2, 3, -1/10*(Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], 
+          -3/2]*Subscript[OverBar[C], -3/2])/Sqrt[7] - 
+      (3*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -3/2])/(10*Sqrt[7]) - 
+      (3*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2])/(10*Sqrt[7]) - 
+      (Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -3/2])/(10*Sqrt[7]) + 
+      (2*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], -1/2])/(5*Sqrt[7]) + 
+      (2*Sqrt[3/7]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -1/2])/5 + (2*Subscript[OverBar[A], -3/2]*
+        Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], -1/2])/(5*Sqrt[7]) - 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[7] - 
+      (Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[7] + 
+      (2*Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[7]}, 
+    {3/2, -3/2, 2, -1/2*(Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], 
+          -3/2]*Subscript[OverBar[C], -3/2])/Sqrt[5] - 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -3/2])/(2*Sqrt[5]) + 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2])/(2*Sqrt[5]) + 
+      (Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -3/2])/(2*Sqrt[5]) + 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[5] - 
+      (Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[5] - 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[5] + 
+      (Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[5]}, 
+    {3/2, -3/2, 1, (-3*Sqrt[3]*Subscript[OverBar[A], 3/2]*
+        Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], -3/2])/10 + 
+      (Sqrt[3]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -3/2])/10 + 
+      (Sqrt[3]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2])/10 - 
+      (3*Sqrt[3]*Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -3/2])/10 + (Sqrt[3]*Subscript[OverBar[A], 1/2]*
+        Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], -1/2])/5 - 
+      (2*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -1/2])/5 + (Sqrt[3]*Subscript[OverBar[A], -3/2]*
+        Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], -1/2])/5}, 
+    {3/2, -3/2, 0, -1/2*(Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], 
+         -3/2]*Subscript[OverBar[C], -3/2]) + 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -3/2])/2 - (Subscript[OverBar[A], -1/2]*
+        Subscript[OverBar[B], 1/2]*Subscript[OverBar[C], -3/2])/2 + 
+      (Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -3/2])/2}, {1/2, 1/2, 2, 
+     (Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[5] - 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[5] - 
+      (Sqrt[3/5]*Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -1/2])/2 + 
+      (Sqrt[3/5]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -1/2])/2 + (Subscript[OverBar[A], 3/2]*
+        Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], 1/2])/(2*Sqrt[5]) + 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/(2*Sqrt[5]) - 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/(2*Sqrt[5]) - 
+      (Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], 1/2])/(2*Sqrt[5]) - 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 3/2])/(2*Sqrt[5]) + 
+      (Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 3/2])/(2*Sqrt[5])}, 
+    {1/2, 1/2, 1, (Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -1/2])/(2*Sqrt[5]) - 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/Sqrt[15] + 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -1/2])/(2*Sqrt[5]) - 
+      (Sqrt[3/5]*Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 1/2])/2 + (Subscript[OverBar[A], 1/2]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], 1/2])/
+       (2*Sqrt[15]) + (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/(2*Sqrt[15]) - 
+      (Sqrt[3/5]*Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], 1/2])/2 + (Sqrt[3/5]*Subscript[OverBar[A], 1/2]*
+        Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], 3/2])/2 - 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[5] + 
+      (Sqrt[3/5]*Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 3/2])/2}, {1/2, -1/2, 2, 
+     (Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -3/2])/(2*Sqrt[5]) - 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -3/2])/(2*Sqrt[5]) - 
+      (Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], -1/2])/(2*Sqrt[5]) - 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], -1/2])/(2*Sqrt[5]) + 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/(2*Sqrt[5]) + 
+      (Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -1/2])/(2*Sqrt[5]) + 
+      (Sqrt[3/5]*Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], 1/2])/2 - 
+      (Sqrt[3/5]*Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/2 - (Subscript[OverBar[A], -1/2]*
+        Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], 3/2])/Sqrt[5] + 
+      (Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 3/2])/Sqrt[5]}, 
+    {1/2, -1/2, 1, (Sqrt[3/5]*Subscript[OverBar[A], 3/2]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], -3/2])/2 - 
+      (Subscript[OverBar[A], 1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -3/2])/Sqrt[5] + 
+      (Sqrt[3/5]*Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -3/2])/2 - 
+      (Sqrt[3/5]*Subscript[OverBar[A], 3/2]*Subscript[OverBar[B], -3/2]*
+        Subscript[OverBar[C], -1/2])/2 + (Subscript[OverBar[A], 1/2]*
+        Subscript[OverBar[B], -1/2]*Subscript[OverBar[C], -1/2])/
+       (2*Sqrt[15]) + (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], -1/2])/(2*Sqrt[15]) - 
+      (Sqrt[3/5]*Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 3/2]*
+        Subscript[OverBar[C], -1/2])/2 + (Subscript[OverBar[A], 1/2]*
+        Subscript[OverBar[B], -3/2]*Subscript[OverBar[C], 1/2])/(2*Sqrt[5]) - 
+      (Subscript[OverBar[A], -1/2]*Subscript[OverBar[B], -1/2]*
+        Subscript[OverBar[C], 1/2])/Sqrt[15] + 
+      (Subscript[OverBar[A], -3/2]*Subscript[OverBar[B], 1/2]*
+        Subscript[OverBar[C], 1/2])/(2*Sqrt[5])}}
